@@ -45,14 +45,22 @@ first run.
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-Two things to know before you rely on it at work:
+### Working at the office with Codex
 
-**Publishing only works from Claude Code.** Collecting, curating, and building
-work in any coding agent, ChatGPT Codex included. Updating the shared link does
-not — that needs Claude's Artifact tool. From a different machine or
-conversation, give Claude the URL in `digests/PUBLISHED.txt` and ask it to
-republish to *that* artifact, otherwise you get a second link and have to ask
-everyone to re-bookmark.
+Codex can do the whole edition — collect, curate, build — but it **cannot update
+the shared link**, because that needs Claude's Artifact tool. So the split is:
+
+- **At work, in Codex:** produce the edition, look at `build/index.html` in a
+  browser, then commit and push. Codex has instructions for this in `AGENTS.md`
+  and will tell you the link is not updated yet.
+- **At home, in Claude Code:** `git pull`, then ask to republish. Give it the URL
+  from `digests/PUBLISHED.txt` so it updates the existing link rather than
+  minting a new one your colleagues would have to re-bookmark.
+
+If people need to see an edition before you get home, `build/index.html` is a
+single self-contained file — email it or drop it in SharePoint and it renders on
+its own. Call that a preview and keep the Artifact link as the real one. Two
+links that disagree is worse than one link that is a few days behind.
 
 **A work network may block the feeds.** Corporate proxies that inspect encrypted
 traffic can make the collector reject certificates, and some publishers may be

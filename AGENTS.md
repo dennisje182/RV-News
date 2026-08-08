@@ -47,13 +47,28 @@ already shared with his team. Republishing requires Claude Code's `Artifact` too
   argument or you will mint a new link and Dennis will have to reshare.
   The current one is in `digests/PUBLISHED.txt`.
 - **Codex or any other agent:** you can collect, curate, and build, but you
-  **cannot** republish to that URL. Build the file and hand it over — it is fully
-  self-contained, so it works from a file share, an email attachment, or
-  SharePoint with no assets alongside it. Say clearly that the shared Artifact
-  link is now behind the local build until someone republishes it.
+  **cannot** republish to that URL.
 
-Do not invent a second distribution channel without asking. One stale link is a
-smaller problem than two links that disagree.
+### The Codex workflow (this is the normal case at the office)
+
+Dennis works on a Windows laptop with Codex only. Finish the edition properly,
+then hand the publish step back:
+
+1. `uv run scripts/collect.py --days 10`
+2. Curate — write `scripts/curate_<edition>.py` per the skill file.
+3. `uv run scripts/build.py`
+4. Open `build/index.html` in a browser and actually look at it.
+5. Append the new edition to `digests/PUBLISHED.txt` under "Editions published",
+   marked `BUILT, NOT YET PUBLISHED`.
+6. Commit and push. The Mac picks it up on the next pull.
+7. **Tell Dennis in plain words** that the edition is built but the shared link
+   still shows the previous one until he republishes from Claude Code.
+
+If he needs colleagues to see it before then, the built file is entirely
+self-contained — it can be emailed or dropped in SharePoint and it will render
+with no assets beside it. Label that copy a preview. The Artifact URL stays the
+canonical link; **do not replace it with a SharePoint link**, because two links
+that disagree is a worse outcome than one link that is a few days behind.
 
 ## Cross-platform rules
 
