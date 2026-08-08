@@ -402,7 +402,7 @@ __JS__
     doc = entity_escape(doc).replace("__CSS__", css_block).replace("__JS__", asciify(js, "JS"))
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(doc, encoding="utf-8")
+    OUT.write_text(doc, encoding="utf-8", newline="\n")
     kb = OUT.stat().st_size / 1024
     print(f"built {OUT.relative_to(ROOT)} from {path.name}")
     print(f"  {len(items)} items ({len(picks)} picks) · {kb:.0f} KB self-contained")

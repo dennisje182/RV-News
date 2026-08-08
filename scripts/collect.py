@@ -406,7 +406,7 @@ def main() -> int:
     ARCHIVE.parent.mkdir(parents=True, exist_ok=True)
     PENDING.parent.mkdir(parents=True, exist_ok=True)
     ARCHIVE.write_text(json.dumps(archive + fresh, ensure_ascii=False, indent=1),
-                       encoding="utf-8")
+                       encoding="utf-8", newline="\n")
     PENDING.write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "window_days": args.days,
@@ -414,7 +414,7 @@ def main() -> int:
         "sources_failed": [{"source": r.source, "error": r.error} for r in bad],
         "sources_warned": [{"source": r.source, "warn": r.warn} for r in ok if r.warn],
         "items": queue,
-    }, ensure_ascii=False, indent=1), encoding="utf-8")
+    }, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
 
     waiting = f" ({len(carried)} carried over)" if carried else ""
     print(f"\nwrote {PENDING.relative_to(ROOT)} — {len(queue)} items to curate{waiting}")

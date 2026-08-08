@@ -299,7 +299,7 @@ def main() -> int:
         "items": built,
     }
     out = ROOT / "digests" / "2026-W32.json"
-    out.write_text(json.dumps(edition, ensure_ascii=False, indent=1), encoding="utf-8")
+    out.write_text(json.dumps(edition, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
 
     print(f"edition 2026-W32")
     print(f"  collected {edition['collected']}")
