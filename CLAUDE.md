@@ -237,9 +237,26 @@ were found and fixed; see `AGENTS.md` for the rules that keep them fixed.
   raises `UnicodeEncodeError` on the first one and takes the run down, so both
   scripts reconfigure stdout to UTF-8 with `errors="replace"`.
 
+Two more that only surface across machines:
+
+- **Generated files pin `newline="\n"`.** Python's text mode translates newlines
+  to the host convention, so a page built on Windows was 1,775 bytes larger than
+  the identical page built on macOS — one per line. Git reported the file as
+  changed while showing "no content changes found", which is a confusing thing to
+  hand a non-developer.
+- **The build must be reproducible.** Country filter chips were ordered by item
+  count alone, starting from a set, and set iteration order varies per process.
+  France and the UK both had 7 items, so they swapped places at random between
+  builds. Any ordering derived from a set needs a tiebreaker.
+
 `uv`, `feedparser`, `requests`, `beautifulsoup4`, `lxml`, and `pyyaml` are all
 cross-platform, and paths use `pathlib` throughout. The `#!/usr/bin/env -S uv run
 --script` shebangs are inert on Windows; invoke through `uv run` everywhere.
+
+**Verified on Windows 11 with uv 0.12.3 on 8 August 2026**: all 23 sources
+collected with no failures, non-ASCII source names printed correctly, the archive
+transferred through Git intact (151 of 159 items recognised as already seen), and
+`build.py` produced a file byte-identical to the macOS build.
 
 **The Artifact tool is Claude Code only.** Codex and other agents can collect,
 curate, and build, but cannot republish to the shared URL in
