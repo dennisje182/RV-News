@@ -261,8 +261,12 @@ def main() -> int:
                          f'data-filter-value="{e(key)}" aria-pressed="false">{e(label)} '
                          f'<span class="chip__count">{counts[key]}</span></button>')
 
+    # Sort by count, then by name. The country code breaks ties on purpose: this
+    # starts from a set, whose iteration order varies per process, so a
+    # count-only key would order equal-sized countries differently on each build
+    # and make an unchanged page look modified in git every time.
     present = sorted({i["country"] for i in items},
-                     key=lambda c: -sum(1 for i in items if i["country"] == c))
+                     key=lambda c: (-sum(1 for i in items if i["country"] == c), c))
     country_chips = ['<button type="button" class="chip" data-filter="country" '
                      'data-filter-value="all" aria-pressed="true">Everywhere</button>']
     for c in present:
