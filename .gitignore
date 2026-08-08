@@ -1,0 +1,14 @@
+# macOS / Windows shell noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# uv / Python
+.venv/
+__pycache__/
+*.pyc
+
+# Editors
+.idea/
+.vscode/
+*.swp

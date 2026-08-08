@@ -1,0 +1,1894 @@
+{
+ "edition": "2026-W32",
+ "published_at": "2026-08-08T07:19:11+00:00",
+ "window": {
+  "from": "2026-07-08",
+  "to": "2026-08-07"
+ },
+ "collected": 309,
+ "selected": 96,
+ "dropped": 126,
+ "merged": 87,
+ "sources_ok": 23,
+ "sources_failed": [],
+ "sources_warned": [],
+ "items": [
+  {
+   "id": "bbc7c359ecc82e97",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Flowcamper"
+   ],
+   "title": "Flowcamper shows the Max Autark Grande",
+   "title_original": "Flowcamper Max Autark Grande (2027): Flowcamper zeigt den Max Grande Autark",
+   "summary": "",
+   "why": null,
+   "url": "https://www.promobil.de/neuheiten/flowcamper-max-grande-autark-allradcamper-mit-flowvent/",
+   "source": "promobil",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-07",
+   "also": []
+  },
+  {
+   "id": "8bbe9a6f56c79951",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Offtrack"
+   ],
+   "title": "Offtrack Camper Verge",
+   "title_original": "Offtrack Camper Verge (2027)",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/wohnmobile/fahrzeug-neuheiten/offtrack-camper-verge-2027/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-07",
+   "also": []
+  },
+  {
+   "id": "e32e63419bdba80f",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "Reisemobil International's rolling list of 2027 model entries",
+   "title_original": "Notin Envol 719JF (2027)",
+   "summary": "The title logs new model-year variants continuously — Notin Envol 719JF, Chausson X640, Benimar Yrteo 885, Giottiline Siena 340, Itineo Cozi PM740, Fleurette Florium Belixter 73, Rapido C66i Optimum Line, Tabbert Puccini Finest and others. Individually thin, collectively the fastest launch signal available.",
+   "why": null,
+   "url": "https://reisemobil-international.de/wohnmobile/fahrzeug-neuheiten/notin-envol-719jf-2027/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-07",
+   "also": []
+  },
+  {
+   "id": "ff9d4cc92a29a8fc",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": true,
+   "brands": [
+    "Bürstner"
+   ],
+   "title": "Bürstner expands motorhomes at Caravan Salon while withdrawing from caravans",
+   "title_original": "Reisemobil-Offensive, aber Wohnwagen-Abschied – Bürstner-Neuheiten zum Caravan Salon",
+   "summary": "Bürstner arrives at Caravan Salon with a broadened motorhome line-up and confirmation that it is leaving the caravan segment.",
+   "why": "An OEM exiting caravans removes caravan-fitted component volume outright rather than shifting it to a competitor. Worth sizing against your own caravan-side fitment before the show, and watching whether other mid-market brands follow.",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc1J1RVJpQ0NQWWNBdHl0RGlBSzJqaGFpcWp3dEVEY1pYN3VWWUFyS19BdFVVVWN3UW1HSHdadkdwcXhJalFfdEpwTjR6U2Vsa01zQ19xbmc1endFMU9DSWlYNzRzakZNdkhQV2pUV0dMdFpWdThEMHpYVzJnaWx2NmtOYThDWUswVmVzdS1ZVkxYZ0gybVB6b1I1c0kzX1dQN3BmaktHZTJ1YTFrdnVvQ3YzQzdTVjdTakQ2VXVjTmpOeVBs?oc=5",
+   "source": "Google News DE — new model announcements",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-06",
+   "also": []
+  },
+  {
+   "id": "60e2c420a0516710",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Weinsberg"
+   ],
+   "title": "Weinsberg CaraBus renews its living space for model year 2027",
+   "title_original": "Weinsberg CaraBus vernieuwt woonruimte voor modeljaar 2027",
+   "summary": "",
+   "why": null,
+   "url": "https://www.kampeerzaken.nl/weinsberg-carabus-vernieuwt-woonruimte-voor-modeljaar-2027/",
+   "source": "KampeerZaken",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-08-06",
+   "also": [
+    "CamperOnLine"
+   ]
+  },
+  {
+   "id": "61f4864ef310faec",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Dethleffs"
+   ],
+   "title": "Dethleffs Trend I 7027 takes a radical turn with a new layout",
+   "title_original": "Dethleffs Trend I 7027: nueva distribución y giro radical para la autocaravana",
+   "summary": "",
+   "why": null,
+   "url": "https://es.motor1.com/news/803847/autocaravana-base-fiat-ducato-viajar-verano/",
+   "source": "Motor1 España — camper",
+   "lang": "es",
+   "country": "es",
+   "published": "2026-08-06",
+   "also": []
+  },
+  {
+   "id": "42b033fd2e33d8b7",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Pössl"
+   ],
+   "title": "Pössl presents one of the most ingenious camper vans of the year",
+   "title_original": "Pössl presenta una de las furgonetas camper más ingeniosas del año",
+   "summary": "",
+   "why": null,
+   "url": "https://es.motor1.com/news/803703/comprar-furgoneta-camper-barata-precio-citroen/",
+   "source": "Motor1 España — camper",
+   "lang": "es",
+   "country": "es",
+   "published": "2026-08-06",
+   "also": [
+    "CamperOnLine"
+   ]
+  },
+  {
+   "id": "2f8546ddce06e54a",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Malibu"
+   ],
+   "title": "Malibu Relax gains an adjustable-height bed",
+   "title_original": "Malibu Relax met verstelbaar hoogtebed en meer 2027-nieuws",
+   "summary": "The Relax 640 LE XR uses an electric bed to free up a large garage.",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/campers-malibu-relax-met-verstelbaar-hoogtebed/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-08-06",
+   "also": [
+    "Motor1 España — camper"
+   ]
+  },
+  {
+   "id": "c963fac9fd3a30a4",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Carthago"
+   ],
+   "title": "Carthago keeps innovation and stability as its focus for 2026/27",
+   "title_original": "",
+   "summary": "",
+   "why": null,
+   "url": "https://www.aboutcampbtob.eu/innovation-and-stability-remain-the-focus-for-carthago/",
+   "source": "Aboutcamp BtoB",
+   "lang": "en",
+   "country": "eu",
+   "published": "2026-08-05",
+   "also": [
+    "Camper Professional DE"
+   ]
+  },
+  {
+   "id": "82231c86d99bbc1b",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Hobby"
+   ],
+   "title": "Hobby De Luxe 2027 gets a new design, kitchen and heavy-duty supports",
+   "title_original": "Hobby De Luxe (2027): Neues Design, Küche und Schwerlaststützen",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/wohnwagen/wohnwagen-neuheiten/hobby-de-luxe-2027/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-05",
+   "also": [
+    "KampeerZaken"
+   ]
+  },
+  {
+   "id": "c2b1aa1599e35a62",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Hobby"
+   ],
+   "title": "Hobby Prestige T offered in three layouts for model year 2027",
+   "title_original": "Hobby Prestige T krijgt drie indelingen in modeljaar 2027",
+   "summary": "",
+   "why": null,
+   "url": "https://www.kampeerzaken.nl/hobby-prestige-t-krijgt-drie-indelingen-in-modeljaar-2027/",
+   "source": "KampeerZaken",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-08-05",
+   "also": [
+    "Campingtrend",
+    "Reisemobil International"
+   ]
+  },
+  {
+   "id": "f602eb86e9c72c1d",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Bruder"
+   ],
+   "title": "Bruder ADX-21 off-road caravan adds living comfort",
+   "title_original": "Neuer Offroad-Wohnwagen mit Wohnkomfort: Bruder ADX-21",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/wohnwagen/wohnwagen-neuheiten/offroad-bruder-adx-21/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-05",
+   "also": []
+  },
+  {
+   "id": "068770b7499fc2c9",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Lume"
+   ],
+   "title": "Lume Ranger is a compact caravan aimed at campervan owners",
+   "title_original": "Neu: Lume Ranger – Kompakter Wohnwagen für Campervans",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/wohnwagen/wohnwagen-neuheiten/lume-ranger/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-05",
+   "also": []
+  },
+  {
+   "id": "7d3a85f324f5365f",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Carado"
+   ],
+   "title": "Carado T335 Edition27 makes the bathroom the centrepiece",
+   "title_original": "Carado guarda al 2027 con il nuovo T335 Edition27: il bagno diventa protagonista",
+   "summary": "An OEM using the washroom as the headline feature of a model-year update.",
+   "why": null,
+   "url": "https://www.camperpress.info/carado-guarda-al-2027-con-il-nuovo-t335-edition27-il-bagno-diventa-protagonista/",
+   "source": "Camperpress",
+   "lang": "it",
+   "country": "it",
+   "published": "2026-08-05",
+   "also": []
+  },
+  {
+   "id": "9ccbc72c81fa945a",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Sun Living"
+   ],
+   "title": "Sun Living 20 Edition targets value",
+   "title_original": "Sun Living 20 Edition: una autocaravana con una excelente relación calidad-precio",
+   "summary": "",
+   "why": null,
+   "url": "https://es.motor1.com/news/803315/sun-living-20-edition-autocaravana-barata/",
+   "source": "Motor1 España — camper",
+   "lang": "es",
+   "country": "es",
+   "published": "2026-08-05",
+   "also": []
+  },
+  {
+   "id": "aab7aa8ecb718340",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Adria"
+   ],
+   "title": "Adria upgrades its Fiat Ducato-based Coral and Matrix ranges for 2027",
+   "title_original": "",
+   "summary": "",
+   "why": null,
+   "url": "https://www.practicalmotorhome.com/news/adria-upgrades-its-core-fiat-ducato-based-coral-and-matrix-ranges-for-2027",
+   "source": "Practical Motorhome",
+   "lang": "en",
+   "country": "gb",
+   "published": "2026-08-04",
+   "also": []
+  },
+  {
+   "id": "16009c22d1cc2ce3",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Bürstner"
+   ],
+   "title": "Bürstner Habiton 6.1 Sprinter camper adds a transverse bed",
+   "title_original": "Bürstner Habiton 6.1 (2027): Sprinter-Camper jetzt auch mit Querbett",
+   "summary": "",
+   "why": null,
+   "url": "https://www.promobil.de/neuheiten/sprinter-ausbau-buerstner-habiton-6-1/",
+   "source": "promobil",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-04",
+   "also": [
+    "Motor1 España — camper"
+   ]
+  },
+  {
+   "id": "0cda411ac7feead4",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Fendt"
+   ],
+   "title": "Fendt Bianco stays the widest range with 16 layouts",
+   "title_original": "De Bianco blijft in 2027 de breedste reeks van Fendt met 16 indelingen",
+   "summary": "",
+   "why": null,
+   "url": "https://www.kampeerzaken.nl/de-bianco-blijft-in-2027-de-breedste-reeks-van-fendt-met-16-indelingen/",
+   "source": "KampeerZaken",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-08-04",
+   "also": []
+  },
+  {
+   "id": "0405d188f0f82d86",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Etrusco"
+   ],
+   "title": "Narrow Etrusco V 6.8 adds a second layout and an optional drop-down bed",
+   "title_original": "Profilé étroit Etrusco V 6.8, une deuxième implantation et un lit de pavillon en option",
+   "summary": "The V 6.8 SCF turns the couples' van into a family motorhome.",
+   "why": null,
+   "url": "https://www.campingcarlesite.com/camping-car-neuf/76084-profile-etroit-etrusco-v-6-8-une-deuxieme-implantation-et-un-lit-de-pavillon-en-option",
+   "source": "CampingCarLeSite",
+   "lang": "fr",
+   "country": "fr",
+   "published": "2026-08-04",
+   "also": [
+    "Google News DE — new model announcements",
+    "Reisemobil International"
+   ]
+  },
+  {
+   "id": "cb8b34bf05bd6054",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "Nine campervans with a rear drop-down bed, and why the layout is trending for 2027",
+   "title_original": "9 Campingbusse mit Hubbett im Heck: Warum dieser Grundriss 2027 zum Trend wird",
+   "summary": "A layout trend piece rather than a single launch.",
+   "why": null,
+   "url": "https://www.promobil.de/kaufberatung/viel-stauraum-festes-bett-8-campingbusse-mit-hubbett-im-heck/",
+   "source": "promobil",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-04",
+   "also": []
+  },
+  {
+   "id": "1b47685e32ccd75c",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Corigon"
+   ],
+   "title": "Corigon Pure eco low-profiles get a new design, and the range expands",
+   "title_original": "Nouveau design et implantations à succès pour les profilés éco Corigon Pure",
+   "summary": "Erwin Hymer Group's newer brand broadens layouts, adds diesel heating and a drop-down bed.",
+   "why": null,
+   "url": "https://www.campingcarlesite.com/camping-car-neuf/76020-nouveau-design-et-implantations-a-succes-corigon-pure-moins-de-60000",
+   "source": "CampingCarLeSite",
+   "lang": "fr",
+   "country": "fr",
+   "published": "2026-08-03",
+   "also": [
+    "Motor1 España — camper"
+   ]
+  },
+  {
+   "id": "aaf10d640252c64f",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Dethleffs"
+   ],
+   "title": "Dethleffs Just Van T5 is a compact low-profile with van feel",
+   "title_original": "Dethleffs Just Van T5 (2027): Kompakter Teilintegrierter mit Van-Feeling",
+   "summary": "",
+   "why": null,
+   "url": "https://www.promobil.de/neuheiten/dethleffs-just-van-t5-mit-einzelbetten-und-xl-sitzgruppe/",
+   "source": "promobil",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-03",
+   "also": []
+  },
+  {
+   "id": "67eacf9a47eb72b3",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Ciclope"
+   ],
+   "title": "Ciclope Mencía brings off-road ability on a Ford base",
+   "title_original": "Imagen y cualidades todoterreno y base Ford para las nuevas camper Ciclope Mencía",
+   "summary": "",
+   "why": null,
+   "url": "https://es.motor1.com/news/803313/comprar-furgoneta-camper-viajar-verano-nueva-ciclope/",
+   "source": "Motor1 España — camper",
+   "lang": "es",
+   "country": "es",
+   "published": "2026-08-03",
+   "also": []
+  },
+  {
+   "id": "3cfa230abe5c63cd",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Kip"
+   ],
+   "title": "Kip Kompakt lift-roof caravan fully renewed with an outdoor kitchen",
+   "title_original": "Hefdakcaravan Kip Kompakt volledig vernieuwd mét buitenkeuken",
+   "summary": "",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/caravans-kip-kompakt/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-08-02",
+   "also": []
+  },
+  {
+   "id": "1d851ec72d764753",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Ahorn"
+   ],
+   "title": "Ahorn Camp Eclipse edition joins the range",
+   "title_original": "Ahorn Camp Eclipse: para contemplar el eclipse solar sobre cuatro ruedas",
+   "summary": "",
+   "why": null,
+   "url": "https://es.motor1.com/news/803051/ahorn-camp-eclipse-furgoneta-camper/",
+   "source": "Motor1 España — camper",
+   "lang": "es",
+   "country": "es",
+   "published": "2026-08-02",
+   "also": [
+    "Reisemobil International"
+   ]
+  },
+  {
+   "id": "c19a4849b1a19f67",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Forster"
+   ],
+   "title": "Forster modernises its motorhome range with new design and interiors",
+   "title_original": "Forster moderniza su gama de autocaravanas con un nuevo diseño e interiores renovados",
+   "summary": "Includes an eight-berth alcove model at aggressive pricing and the sub-EUR 50,000 Vantasy.",
+   "why": null,
+   "url": "https://es.motor1.com/news/803035/autocaravana-bien-equipada-precio-fiat-ducato/",
+   "source": "Motor1 España — camper",
+   "lang": "es",
+   "country": "es",
+   "published": "2026-08-01",
+   "also": [
+    "Google News DE — new model announcements"
+   ]
+  },
+  {
+   "id": "a5aa11cd3c93de33",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Carthago"
+   ],
+   "title": "Carthago renews its topliners and adds a C2-tourer with face-to-face lounge",
+   "title_original": "Carthago vernieuwt topliners en introduceert C2-tourer met ruime face-to-face-indeling",
+   "summary": "",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/campers-carthago-2027/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-31",
+   "also": [
+    "Reisemobil International",
+    "promobil"
+   ]
+  },
+  {
+   "id": "384640e61ba0e162",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Laika"
+   ],
+   "title": "Laika moves its Kreos range onto a Mercedes Sprinter for 2027",
+   "title_original": "",
+   "summary": "",
+   "why": null,
+   "url": "https://www.practicalmotorhome.com/news/laika-moves-its-kreos-range-onto-a-mercedes-sprinter-for-2027",
+   "source": "Practical Motorhome",
+   "lang": "en",
+   "country": "gb",
+   "published": "2026-07-31",
+   "also": [
+    "Campingtrend",
+    "Motor1 España — camper"
+   ]
+  },
+  {
+   "id": "bc5aa7af0336081d",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "2027 model-year price lists published for seventeen brands",
+   "title_original": "Prix camping-car neuf 2027 Challenger",
+   "summary": "CampingCarLeSite has posted new-vehicle pricing for Adria, Bavaria, Bürstner, Carado, Challenger, Chausson, CI, Eden Camp, Etrusco, Laika, McLouis, Mobilvetta, Pilote, Rimor, Roller Team and Sunlight. Useful as a pricing reference rather than as news.",
+   "why": null,
+   "url": "https://www.campingcarlesite.com/prix-camping-car-neuf/534-camping-car-challenger",
+   "source": "CampingCarLeSite",
+   "lang": "fr",
+   "country": "fr",
+   "published": "2026-07-31",
+   "also": []
+  },
+  {
+   "id": "a1a2b69a0f3541d0",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Mercedes-Benz"
+   ],
+   "title": "New Mercedes-Benz Marco Polo arrives as a smarter everyday campervan",
+   "title_original": "Neuer Marco Polo als smartes, alltagstaugliches Mercedes-Benz Glamping-Mobil",
+   "summary": "",
+   "why": null,
+   "url": "https://www.camperprofessional.de/neuer-marco-polo-als-smartes-alltagstaugliches-mercedes-benz-glamping-mobil/",
+   "source": "Camper Professional DE",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-30",
+   "also": [
+    "Aboutcamp BtoB",
+    "Motor1 España — camper"
+   ]
+  },
+  {
+   "id": "7355c64b0f111c2d",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Westfalia"
+   ],
+   "title": "Westfalia marks 50 years of the Sven Hedin with a jubilee camper",
+   "title_original": "Westfalia viert 50 jaar Sven Hedin met speciale jubileumcamper",
+   "summary": "",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/westfalia-viert-50-jaar-sven-hedin-met-speciale-jubileumcamper/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-30",
+   "also": []
+  },
+  {
+   "id": "098c13ca050143eb",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Westfalia"
+   ],
+   "title": "New Westfalia Nansen offers room for family and luggage",
+   "title_original": "Nieuwe Westfalia Nansen: buscamper met ruimte voor gezin en bagage",
+   "summary": "",
+   "why": null,
+   "url": "https://www.kampeerzaken.nl/nieuwe-westfalia-nansen-buscamper-met-ruimte-voor-gezin-en-bagage/",
+   "source": "KampeerZaken",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-30",
+   "also": []
+  },
+  {
+   "id": "41591acc0e92b459",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Sunlight"
+   ],
+   "title": "Sunlight puts new low-profiles on the Ford Transit with revised layouts",
+   "title_original": "Équipement musclé & plans repensés : voici les nouveaux profilés Sunlight sur Ford Transit",
+   "summary": "",
+   "why": null,
+   "url": "https://www.campingcarlesite.com/camping-car-neuf/75972-profiles_sunlight_unltd_2027_sur_ford_transit",
+   "source": "CampingCarLeSite",
+   "lang": "fr",
+   "country": "fr",
+   "published": "2026-07-30",
+   "also": [
+    "Motor1 España — camper"
+   ]
+  },
+  {
+   "id": "64364c747d6a82a3",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Bürstner"
+   ],
+   "title": "Bürstner Signature moves onto a Mercedes base",
+   "title_original": "Signature, les profilés Bürstner d’exception maintenant sur Mercedes",
+   "summary": "",
+   "why": null,
+   "url": "https://www.campingcarlesite.com/camping-car-neuf/75827-signature-smt-profiles-burstner-premium-sur-mercedes-sprinter-bva",
+   "source": "CampingCarLeSite",
+   "lang": "fr",
+   "country": "fr",
+   "published": "2026-07-28",
+   "also": [
+    "Reisemobil International"
+   ]
+  },
+  {
+   "id": "fa46fe3677a4f11c",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Etrusco"
+   ],
+   "title": "Etrusco CV 640 PB+ balances comfort against practicality",
+   "title_original": "ETRUSCO CV 640 PB+: il van che guarda al comfort senza dimenticare la praticità",
+   "summary": "",
+   "why": null,
+   "url": "https://www.camperpress.info/etrusco-cv-640-pb-il-van-che-guarda-al-comfort-senza-dimenticare-la-praticita/",
+   "source": "Camperpress",
+   "lang": "it",
+   "country": "it",
+   "published": "2026-07-27",
+   "also": [
+    "Motor1 España — camper"
+   ]
+  },
+  {
+   "id": "98c1c1788b234885",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Adria"
+   ],
+   "title": "Adria Alpina caravan gets a complete makeover",
+   "title_original": "Adria Alpina krijgt complete make-over",
+   "summary": "",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/caravans-adria-alpina-2027/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-26",
+   "also": []
+  },
+  {
+   "id": "4339a3e286cd2ac7",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "LMC"
+   ],
+   "title": "LMC renews the Tracer and expands Innovan Pure for 2027",
+   "title_original": "LMC vernieuwt Tracer en breidt Innovan Pure uit voor 2027",
+   "summary": "",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/campers-lmc-tracer-innovan-pure-2027/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-25",
+   "also": []
+  },
+  {
+   "id": "eff754c6e1368120",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Tabbert"
+   ],
+   "title": "Tabbert brings back the Vivaldi for model year 2027",
+   "title_original": "Tabbert brengt de Vivaldi terug voor modeljaar 2027",
+   "summary": "",
+   "why": null,
+   "url": "https://www.kampeerzaken.nl/tabbert-brengt-de-vivaldi-terug-voor-modeljaar-2027/",
+   "source": "KampeerZaken",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-24",
+   "also": [
+    "Reisemobil International"
+   ]
+  },
+  {
+   "id": "9f12a635fc5229bf",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Volkswagen"
+   ],
+   "title": "Volkswagen Transporter can now be ordered as a plug-in hybrid",
+   "title_original": "",
+   "summary": "Electrified base vehicle reaching the conversion market.",
+   "why": null,
+   "url": "https://www.practicalmotorhome.com/news/base-vehicles/volkswagens-transporter-can-now-be-ordered-as-a-plug-in-hybrid",
+   "source": "Practical Motorhome",
+   "lang": "en",
+   "country": "gb",
+   "published": "2026-07-22",
+   "also": []
+  },
+  {
+   "id": "041388d25fe69496",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Niesmann+Bischoff"
+   ],
+   "title": "Niesmann+Bischoff makes the iSmove more self-sufficient for 2027",
+   "title_original": "",
+   "summary": "",
+   "why": null,
+   "url": "https://www.practicalmotorhome.com/news/niesmannbischoff-upgrades-the-fiat-ducato-based-ismove-for-2027",
+   "source": "Practical Motorhome",
+   "lang": "en",
+   "country": "gb",
+   "published": "2026-07-21",
+   "also": [
+    "Motor1 España — camper",
+    "Reisemobil International"
+   ]
+  },
+  {
+   "id": "320837eadd64b325",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Pilote"
+   ],
+   "title": "Pilote's 2027 A-class range gets a new front end and more comfort",
+   "title_original": "Pilote 2027: nuovi camper integrali, frontale inedito e più comfort per la nuova generazione della casa francese",
+   "summary": "",
+   "why": null,
+   "url": "https://www.camperpress.info/pilote-2027-nuovi-camper-integrali-frontale-inedito-e-piu-comfort-per-la-nuova-generazione-della-casa-francese/",
+   "source": "Camperpress",
+   "lang": "it",
+   "country": "it",
+   "published": "2026-07-17",
+   "also": [
+    "CamperOnLine",
+    "Reisemobil International"
+   ]
+  },
+  {
+   "id": "fe2840ae0c1c06f4",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Morelo"
+   ],
+   "title": "Morelo Palace luxury liner for 2027",
+   "title_original": "Luxusliner Morelo Palace (2027)",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/wohnmobile/fahrzeug-neuheiten/luxusliner-morelo-palace-2027/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-17",
+   "also": []
+  },
+  {
+   "id": "178a84c700828dc5",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Fendt"
+   ],
+   "title": "Fendt Apero adds the Activ 465 GE twin-bed caravan",
+   "title_original": "Fendt Apero Activ 465 GE (2027): Neuer Einzelbetten-Wohnwagen ergänzt die Apero-Baureihe",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/wohnwagen/wohnwagen-neuheiten/premiere-fendt-apero/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-16",
+   "also": [
+    "KampeerZaken"
+   ]
+  },
+  {
+   "id": "407e30520cc32aff",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Ford"
+   ],
+   "title": "Ford withdraws the Nugget campervan from the UK",
+   "title_original": "",
+   "summary": "",
+   "why": null,
+   "url": "https://www.practicalmotorhome.com/news/ford-pulls-its-nugget-campervan-out-of-the-uk",
+   "source": "Practical Motorhome",
+   "lang": "en",
+   "country": "gb",
+   "published": "2026-07-15",
+   "also": []
+  },
+  {
+   "id": "d073b9296de6083d",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Pilote",
+    "Joa"
+   ],
+   "title": "Joa by Pilote is the underestimated budget brand shaking up the German market",
+   "title_original": "Die unterschätzte Billigmarke, die Deutschlands Wohnmobil-Markt aufmischt: Joa-by-Pilote",
+   "summary": "",
+   "why": null,
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR1lkbVcwcnVCSEx6NGtGQ0ZRMzVCeERqemtELU9vTDR1dlo5OVlYOUNRb25YMUthV2hvQjVDejZ1S1hTbU1Vay1lTnRTNVhRcV9mMW9EZ3k4bHF0N1BfY0N5SmFrcDI2RE5aMDVENklva1RVQmxnZDV1U3JwUHduWGlMdEs2eVE3TUFOLWJnWksyQUJIY3Awa1p2cUhtbU9pWEJiQnpSYTE3QlpQalhxR2dsR2VHcjQ3SFdQUVR3dw?oc=5",
+   "source": "Google News DE — new model announcements",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-15",
+   "also": []
+  },
+  {
+   "id": "a5b78c59dc4a495f",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Frankia"
+   ],
+   "title": "Frankia Final Edition brings luxury equipment from EUR 139,990",
+   "title_original": "Frankia Final Edition (2027): F-Line und Titan mit Luxus-Ausstattung ab 139.990 Euro",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/wohnmobile/fahrzeug-neuheiten/frankia-final-edition-2027/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-15",
+   "also": [
+    "CamperOnLine"
+   ]
+  },
+  {
+   "id": "6ac022ba8cc8fee5",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Volkswagen"
+   ],
+   "title": "VW Grand California gains off-grid capability, and the Grand California adds solar",
+   "title_original": "",
+   "summary": "Crafter-based campervan pushed further towards self-sufficiency.",
+   "why": null,
+   "url": "https://www.practicalmotorhome.com/news/volkswagen-make-crafter-based-grand-california-more-appealing-to-fans-of-off-grid-campervanning",
+   "source": "Practical Motorhome",
+   "lang": "en",
+   "country": "gb",
+   "published": "2026-07-14",
+   "also": [
+    "Motor1 España — camper"
+   ]
+  },
+  {
+   "id": "44323263e30cdc02",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Westfalia"
+   ],
+   "title": "Westfalia Columbus Liner on Fiat Ducato to debut at Caravan Salon",
+   "title_original": "",
+   "summary": "",
+   "why": null,
+   "url": "https://www.practicalmotorhome.com/news/westfalia-announces-new-fiat-ducato-based-columbus-liner-to-debut-at-caravan-salon",
+   "source": "Practical Motorhome",
+   "lang": "en",
+   "country": "gb",
+   "published": "2026-07-14",
+   "also": [
+    "Motor1 España — camper"
+   ]
+  },
+  {
+   "id": "a522a37c05e53767",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Rimor"
+   ],
+   "title": "Rimor's 2027 range targets comfort",
+   "title_original": "Rimor 2027: Komfort für echte Camper",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/news-termine/wohnmobil-neuheiten/rimor-2027/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-10",
+   "also": []
+  },
+  {
+   "id": "a2e531a83cf8de4e",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Hymer"
+   ],
+   "title": "Hymer GT-S Mediterranee",
+   "title_original": "Hymer GT-S Mediterranee",
+   "summary": "",
+   "why": null,
+   "url": "https://www.camperonline.it/magazine/2026/07/09/hymer-gt-s-mediterranee/",
+   "source": "CamperOnLine",
+   "lang": "it",
+   "country": "it",
+   "published": "2026-07-09",
+   "also": []
+  },
+  {
+   "id": "46c7a5b5506c5527",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Knaus Tabbert",
+    "Knaus",
+    "Weinsberg"
+   ],
+   "title": "Knaus Tabbert presents its 2027 model-year range",
+   "title_original": "",
+   "summary": "",
+   "why": null,
+   "url": "https://www.knaustabbert.de/en/press/press-releases/knaus-tabbert-presents-the-new-models-for-the-2027-model-year/",
+   "source": "Knaus Tabbert press releases",
+   "lang": "en",
+   "country": "de",
+   "published": "2026-06-18",
+   "also": [
+    "CamperOnLine"
+   ]
+  },
+  {
+   "id": "d97b7fe2f003db24",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Maxxis"
+   ],
+   "title": "Maxxis RAZR AT-S all-season tyre for all-wheel-drive campers",
+   "title_original": "Ganzjahresreifen für Allrad-Camper: Maxxis RAZR AT-S AT 781",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/campkompass/zubehoer/produktempfehlungen-und-tests/ganzjahresreifen-allrad-maxxis/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-07",
+   "also": []
+  },
+  {
+   "id": "6495f221d86914ea",
+   "category": "accessories",
+   "competitor": false,
+   "pick": true,
+   "brands": [],
+   "title": "German press examines why absorber fridges struggle in high summer heat",
+   "title_original": "Warum Absorber-Kühlschränke bei Hitze versagen: Wenn der Kühlschrank bei Hitze streikt",
+   "summary": "promobil sets out why absorption fridges lose performance in heat, alongside an Italian buying guide walking readers through choosing between cooling technologies.",
+   "why": "Two outlets in two markets scrutinising absorption cooling performance in the same fortnight, in your core category, while compressor alternatives gain shelf space. This is the argument that shapes how dealers explain the technology on the forecourt.",
+   "url": "https://www.promobil.de/weitere-ratgeber/wohnmobil-kuehlschrank-kuehlt-nicht-bei-hitze-6-tipps-die-helfen/",
+   "source": "promobil",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-05",
+   "also": [
+    "Camperpress"
+   ]
+  },
+  {
+   "id": "c16a74f88c0cd803",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "GOK"
+   ],
+   "title": "GOK Caramatic series supplies gas while driving",
+   "title_original": "GOK-Caramatic-Serie: Gasversorgung während der Fahrt",
+   "summary": "Regulator range for use in motion.",
+   "why": null,
+   "url": "https://reisemobil-international.de/camping-zubehoer/gok-caramatic-serie-gasversorgung-waehrend-der-fahrt/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-03",
+   "also": []
+  },
+  {
+   "id": "74e010c193eb303b",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "CamperBoards"
+   ],
+   "title": "CamperBoards offers made-to-measure table solutions",
+   "title_original": "CamperBoards: ﻿Individuelle Tischlösungen",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/ratgeber/camperboards-individuelle-tischloesungen/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-03",
+   "also": []
+  },
+  {
+   "id": "81ca8feee4c242ea",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "flat-jack Camper 2.0 tyre air cushions for levelling",
+   "title_original": "Reifen-Luftkissen flat-jack® Camper 2.0: Standsicherheit auf neuem Niveau",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/campkompass/ausstattung/aufbau/auffahrkeile/reifen-luftkissen-flat-jack-camper-2-0-standsicherheit-auf-neuem-niveau/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-31",
+   "also": []
+  },
+  {
+   "id": "b4202c886ac9d2f2",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Scanstrut"
+   ],
+   "title": "Scanstrut to show exterior utility connection products at Caravan Salon",
+   "title_original": "",
+   "summary": "External service connections for vehicle exteriors.",
+   "why": null,
+   "url": "https://www.aboutcampbtob.eu/scanstrut-to-showcase-exterior-utility-connection-innovations-at-caravan-salon/",
+   "source": "Aboutcamp BtoB",
+   "lang": "en",
+   "country": "eu",
+   "published": "2026-07-28",
+   "also": []
+  },
+  {
+   "id": "c7e35a050faa3157",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Xiaomi"
+   ],
+   "title": "Xiaomi shows a Sky Nomad N90 Camping Edition with lift roof and bed",
+   "title_original": "Xiaomi Sky Nomad N90 ‘Camping Edition’ mét hefdak en bed",
+   "summary": "A consumer-electronics brand appearing in the camping-vehicle space.",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/campers-xiaomi-sky-nomad-n90/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-28",
+   "also": []
+  },
+  {
+   "id": "3ec0975b1718bd52",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "Three wireless reversing cameras for campers compared",
+   "title_original": "Drei Funk-Rückfahrkameras für Camper im Vergleich",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/campkompass/technik/multimedia/navigationsgeraete-und-rueckfahrkameras/drei-funk-rueckfahrkameras-fuer-camper-im-vergleich/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-27",
+   "also": []
+  },
+  {
+   "id": "7f3e9a9f5b4d4db0",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "Six CEE cable reels tested",
+   "title_original": "6 CEE-Kabeltrommeln im Praxistest",
+   "summary": "Mains hook-up leads in a practical test.",
+   "why": null,
+   "url": "https://reisemobil-international.de/campkompass/technik/elektrik/stromversorgung/6-cee-kabeltrommeln-im-praxistest/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-24",
+   "also": []
+  },
+  {
+   "id": "07bae5c7762dce4b",
+   "category": "accessories",
+   "competitor": false,
+   "pick": true,
+   "brands": [
+    "Thetford"
+   ],
+   "title": "Thetford presents the next chapter of motorhome refrigeration",
+   "title_original": "Thetford präsentiert nächstes Kapitel der Kühlschranktechnik für Wohnmobile",
+   "summary": "Camper Professional's German trade audience gets Thetford's own framing of its next-generation fridge technology for motorhomes.",
+   "why": "This is your announcement, read back to you as the German trade press received it. Worth checking whether the framing that landed is the framing intended, and noting that it ran in the B2B title OEM purchasing teams actually read.",
+   "url": "https://www.camperprofessional.de/thetford-prasentiert-nachstes-kapitel-der-kuhlschranktechnik-fur-wohnmobile/",
+   "source": "Camper Professional DE",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-14",
+   "also": []
+  },
+  {
+   "id": "17384b7cad813f2a",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "E-Trailer"
+   ],
+   "title": "E-Trailer system puts power, gas and water levels on one screen",
+   "title_original": "Mit dem E-Trailer System: Strom- , Gas- und Wasservorrat immer im Blick",
+   "summary": "Tank and supply monitoring consolidated into a single connected display.",
+   "why": null,
+   "url": "https://reisemobil-international.de/campkompass/ausstattung/sicherheit/diebstahlschutz/e-trailer-system-erweitert-um-einbruchs-und-diebstahlschutz/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-14",
+   "also": []
+  },
+  {
+   "id": "ce378dbf1f94f7b9",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "Five foldable solar panels compared for off-grid campers",
+   "title_original": "Faltbare Solarpanels im Überblick: Fünf flexible Lösungen für autarke Camper",
+   "summary": "Overview of flexible solar options for self-sufficient touring.",
+   "why": null,
+   "url": "https://reisemobil-international.de/campkompass/technik/solartechnik/mit-faltbaren-solarpanels-geht-ueberall-die-sonne-auf/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-13",
+   "also": []
+  },
+  {
+   "id": "d2a748774ab2af9d",
+   "category": "accessories",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "LotusGrill"
+   ],
+   "title": "LotusGrill Hybrid Classic runs on gas or charcoal",
+   "title_original": "LotusGrill Hybrid Classic: Kompakter Campinggrill für Gas- und Kohlebetrieb",
+   "summary": "",
+   "why": null,
+   "url": "https://reisemobil-international.de/campkompass/kueche/grillen/campinggrills/lotusgrill-hybrid-classic/",
+   "source": "Reisemobil International",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-13",
+   "also": []
+  },
+  {
+   "id": "8f64b35236c9b307",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Airxcel"
+   ],
+   "title": "Airxcel expands its dealer, distributor and service sales team",
+   "title_original": "",
+   "summary": "The RV climate and appliance group adds commercial headcount.",
+   "why": null,
+   "url": "https://www.aboutcampbtob.eu/airxcel-expands-dealer-distributor-and-service-sales-team/",
+   "source": "Aboutcamp BtoB",
+   "lang": "en",
+   "country": "eu",
+   "published": "2026-08-06",
+   "also": []
+  },
+  {
+   "id": "bd9afa314ca44b7c",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Mestic"
+   ],
+   "title": "Mestic launches inverter rooftop air conditioners",
+   "title_original": "Mestic-dakairco’s met inverter: energiezuinig koelen én verwarmen in stilte",
+   "summary": "Energy-efficient cooling and heating, pitched on quiet running.",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/accessoires-mestic-dakairco-inverter-advertorial/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-08-03",
+   "also": []
+  },
+  {
+   "id": "bf631acfdfdb1b5e",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Dometic"
+   ],
+   "title": "Dometic CFX3 35 and CFX5 45 compressor cool boxes reviewed",
+   "title_original": "Die Dometic CFX3 35 Kühlbox. Kompakter Stromsparer für Camping und Vanlife",
+   "summary": "German tests of the compact CFX3 35 and the CFX5 45, plus a wider compressor cool box group test claiming cooling to minus 20 degrees.",
+   "why": null,
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbnJaZXBHVG9XclVMc09EX0o4QjlyTXo4RUplbEZjZUlHZmZJSVVPSDJWa1dyTG9RZ0E4Q3diQ2JHOVRscUFxZUNIWUtFVGtfUlc3alNlNnFCbzVvcS1hbTliRnJ6QUNiYWxrYzc5QkRFM0FZZE8wMWtHcGlQTXgxZzRWandVX1A5NXQwTXF6T29xMkZGR2RjeWd3dERoY1hmQmlqRjBWZGJMYnVCUXlKNkFLa1c2SUVCZWkxSnQ4QkE?oc=5",
+   "source": "Google News DE — competitor products",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-01",
+   "also": []
+  },
+  {
+   "id": "905588b7ab94c8bf",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Fiamma"
+   ],
+   "title": "Fiamma launches an award initiative with a contemporary art museum",
+   "title_original": "",
+   "summary": "A brand and sponsorship play rather than a product move.",
+   "why": null,
+   "url": "https://www.aboutcampbtob.eu/fiamma-reveals-award-initiative-in-partnership-with-contemporary-art-museum/",
+   "source": "Aboutcamp BtoB",
+   "lang": "en",
+   "country": "eu",
+   "published": "2026-07-31",
+   "also": []
+  },
+  {
+   "id": "3d8c7f8a8c0416d6",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Victron"
+   ],
+   "title": "Victron releases VictronConnect v6.40",
+   "title_original": "",
+   "summary": "Update to the configuration and monitoring app for its power electronics.",
+   "why": null,
+   "url": "https://www.victronenergy.com/blog/2026/07/31/victronconnect-v6-40/",
+   "source": "Victron Energy",
+   "lang": "en",
+   "country": "nl",
+   "published": "2026-07-31",
+   "also": []
+  },
+  {
+   "id": "3bf0b7d31fb6db75",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Dometic",
+    "Cadac"
+   ],
+   "title": "Cadac and Dometic launch the Van Cook FFD",
+   "title_original": "Nieuw van Cadac | Dometic én met Campingtrend-korting: Van Cook FFD",
+   "summary": "A co-branded cooking unit aimed at van conversions.",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/accessoires-van-cook-ffd-cadac-dometic/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-27",
+   "also": [
+    "Reisemobil International"
+   ]
+  },
+  {
+   "id": "e5b7cc554910c213",
+   "category": "competitor",
+   "competitor": true,
+   "pick": true,
+   "brands": [
+    "Truma"
+   ],
+   "title": "Truma pushes further into digital control with the iNet X Panel 2",
+   "title_original": "Truma iNet X (Pro) Panel 2: Mehr Komfort für Hersteller, mehr Freiheit für Camper",
+   "summary": "A second-generation connected control panel, positioned as less integration work for manufacturers and more remote control for owners. Independent German coverage was more measured than the launch material, setting out what the panel does not do.",
+   "why": "Truma is making a claim on the in-cabin digital interface — the layer that decides which appliances a customer sees and controls in one place. If the panel becomes the default OEM fit, appliances outside it risk being operated as second-class devices.",
+   "url": "https://www.camperprofessional.de/truma-inet-x-pro-panel-2-mehr-komfort-fur-hersteller-mehr-freiheit-fur-camper/",
+   "source": "Camper Professional DE",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-24",
+   "also": [
+    "Aboutcamp BtoB",
+    "Google News DE — competitor products"
+   ]
+  },
+  {
+   "id": "0bafe7123de8652b",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Truma",
+    "GOK"
+   ],
+   "title": "GOK GasControl beats Truma's GS8 on one feature, German test finds",
+   "title_original": "Gasfernschalter für Wohnmobile: GOK GasControl übertrumpft Truma GS8 bei einem Feature",
+   "summary": "A head-to-head on remote gas shut-off devices.",
+   "why": null,
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQXNYRkxCRnV2VWR6bUNpeHBaZ2tXTjlXMDNvZDZIYzNJc2pZbGptYTNCTVh5anRNMkFLMGMzSmctM2ZSem9WWkxnNGgxZUFJeTgzR2pwdy1HekpIcmVXcjMwcVEyMHVnSDNPOWJJZjEya2xDNkxVMWxtR0t1am1WWWdkQ1dDZ1ZqWDZ2QzM4VU9vQnlVaTF5RlVXU3BEdXF6V041dXZtWm9xUEJyMWtjTnVxUjNFd2NCNGxXdURR?oc=5",
+   "source": "Google News DE — competitor products",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-24",
+   "also": []
+  },
+  {
+   "id": "11bee74b58e97641",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Truma"
+   ],
+   "title": "Truma extends on-board safety with MonoControl CS R for Campingaz cylinders",
+   "title_original": "Truma amplia la sicurezza a bordo: arriva MonoControl CS R per le bombole Campingaz",
+   "summary": "A gas pressure regulator with crash sensor, now covering Campingaz bottles.",
+   "why": null,
+   "url": "https://www.camperpress.info/truma-amplia-la-sicurezza-a-bordo-arriva-monocontrol-cs-r-per-le-bombole-campingaz/",
+   "source": "Camperpress",
+   "lang": "it",
+   "country": "it",
+   "published": "2026-07-22",
+   "also": []
+  },
+  {
+   "id": "f3e6c287a14f8219",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Thule"
+   ],
+   "title": "Thule interim report for Q2 2026",
+   "title_original": "",
+   "summary": "Second-quarter results, April to June.",
+   "why": null,
+   "url": "https://mfn.se/a/thule-group/thule-interim-report-second-quarter-2026-april-june",
+   "source": "Thule Group (investor relations)",
+   "lang": "en",
+   "country": "se",
+   "published": "2026-07-20",
+   "also": []
+  },
+  {
+   "id": "9cbb2e31454af5c7",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Dometic"
+   ],
+   "title": "Dometic Q2 2026: stable sales in a volatile market",
+   "title_original": "",
+   "summary": "Interim report for the second quarter, with management describing sales as stable against volatile conditions. Berenberg maintained its buy rating.",
+   "why": null,
+   "url": "https://mfn.se/cis/a/dometic-group/dometic-group-interim-report-second-quarter-2026-ea3febce",
+   "source": "Dometic Group (investor relations)",
+   "lang": "en",
+   "country": "se",
+   "published": "2026-07-14",
+   "also": [
+    "Aboutcamp BtoB",
+    "Google News EN — listed OEMs and suppliers"
+   ]
+  },
+  {
+   "id": "f88e9a210f2d4acf",
+   "category": "competitor",
+   "competitor": true,
+   "pick": false,
+   "brands": [
+    "Webasto"
+   ],
+   "title": "Webasto shows new air heaters and a revised air conditioner",
+   "title_original": "Mehr Reisekomfort mit neuen Luftheizungen und optimierter Klimaanlage von Webasto",
+   "summary": "Refreshed heating and climate line for greater travel comfort.",
+   "why": null,
+   "url": "https://www.camperprofessional.de/mehr-reisekomfort-mit-neuen-luftheizungen-und-optimierter-klimaanlage-von-webasto/",
+   "source": "Camper Professional DE",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-13",
+   "also": []
+  },
+  {
+   "id": "75aeb89c879183f4",
+   "category": "industry",
+   "competitor": false,
+   "pick": true,
+   "brands": [
+    "Knaus Tabbert"
+   ],
+   "title": "Knaus Tabbert H1 2026: revenue down 11.9% to EUR 503.9m, EBIT back to EUR 21.8m",
+   "title_original": "Knaus Tabbert veröffentlicht Halbjahresfinanzbericht 2026",
+   "summary": "Half-year revenue fell to EUR 503.9m while EBIT swung positive to EUR 21.8m. Analysts responded with a buy rating and a EUR 23 price target.",
+   "why": "The clearest read available on the German market: a listed bellwether selling materially fewer units while restoring margin. That pattern — protecting price over volume — is the one that matters for component order forecasts, because it means lower build volumes are being planned deliberately rather than reluctantly.",
+   "url": "https://www.camperprofessional.de/knaus-tabbert-veroffentlicht-halbjahresfinanzbericht-2026/",
+   "source": "Camper Professional DE",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-07",
+   "also": [
+    "Aboutcamp BtoB",
+    "Google News EN — listed OEMs and suppliers"
+   ]
+  },
+  {
+   "id": "83dd8ab22af898a1",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "Crit'Air low-emission stickers are required for motorhomes in France",
+   "title_original": "Die Crit’Air-Falle für Wohnmobile: Warum Sie die französische Umweltplakette brauchen",
+   "summary": "Regulatory reminder on the French environmental windscreen sticker.",
+   "why": null,
+   "url": "https://www.promobil.de/tipps/warum-camper-eine-franzoesische-umweltplakette-brauchen-die-crit-air-falle/",
+   "source": "promobil",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-06",
+   "also": []
+  },
+  {
+   "id": "a6e215b14a83d3d9",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Fiat"
+   ],
+   "title": "The Fiat Ducato turns 45",
+   "title_original": "Happy Birthday zum 45. Geburtstag des Fiat Ducato",
+   "summary": "Anniversary of the base vehicle underpinning much of the European market.",
+   "why": null,
+   "url": "https://www.camperprofessional.de/happy-birthday-zum-45-geburtstag-des-fiat-ducato/",
+   "source": "Camper Professional DE",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-31",
+   "also": [
+    "Aboutcamp BtoB"
+   ]
+  },
+  {
+   "id": "847271b8ab819dbd",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Volkswagen"
+   ],
+   "title": "Broekhuis becomes an official Volkswagen California dealer in the Netherlands",
+   "title_original": "Broekhuis nieuwe officiële Volkswagen California-dealer in Nederland",
+   "summary": "",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/campers-broekhuis-volkswagen-california-dealer/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-29",
+   "also": []
+  },
+  {
+   "id": "ddcf70bc9d1bcbb6",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "ACSI"
+   ],
+   "title": "Dutch campsite overnight stays up 22.5% through May",
+   "title_original": "ACSI: tot en met mei 22,5 procent meer overnachtingen op Nederlandse campings",
+   "summary": "ACSI figures for the season to end of May.",
+   "why": null,
+   "url": "https://www.kampeerzaken.nl/acsi-tot-en-met-mei-225-procent-meer-overnachtingen-op-nederlandse-campings/",
+   "source": "KampeerZaken",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-28",
+   "also": []
+  },
+  {
+   "id": "9e137f9ec469d018",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "United States records more than 25,000 RV shipments in June",
+   "title_original": "",
+   "summary": "US shipment data, useful only as a global demand signal.",
+   "why": null,
+   "url": "https://www.aboutcampbtob.eu/united-states-records-more-than-25000-rv-shipments-in-june/",
+   "source": "Aboutcamp BtoB",
+   "lang": "en",
+   "country": "eu",
+   "published": "2026-07-28",
+   "also": []
+  },
+  {
+   "id": "40ffa11487faef28",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Dethleffs"
+   ],
+   "title": "Dethleffs adds dealers in Brabant and Friesland",
+   "title_original": "Dethleffs krijgt twee nieuwe dealers in Brabant en Friesland",
+   "summary": "",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/caravans-dethleffs-dealers/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-07-23",
+   "also": []
+  },
+  {
+   "id": "990f759ee8442343",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Lippert"
+   ],
+   "title": "Lippert marks ten years in Europe",
+   "title_original": "",
+   "summary": "The components group reflects on a decade of European operations.",
+   "why": null,
+   "url": "https://www.aboutcampbtob.eu/lippert-celebrates-a-decade-in-europe/",
+   "source": "Aboutcamp BtoB",
+   "lang": "en",
+   "country": "eu",
+   "published": "2026-07-22",
+   "also": [
+    "Camper Professional DE"
+   ]
+  },
+  {
+   "id": "5b4eccabbd9f1120",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Stellantis"
+   ],
+   "title": "Stellantis Pro One holds its European light-commercial-vehicle lead",
+   "title_original": "",
+   "summary": "Base-vehicle market share position maintained.",
+   "why": null,
+   "url": "https://www.aboutcampbtob.eu/stellantis-pro-one-retains-market-leader-position-in-european-lcv-sector/",
+   "source": "Aboutcamp BtoB",
+   "lang": "en",
+   "country": "eu",
+   "published": "2026-07-21",
+   "also": []
+  },
+  {
+   "id": "e304696954587a37",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Camec"
+   ],
+   "title": "Aussie Traveller agrees to acquire Camec",
+   "title_original": "",
+   "summary": "Consolidation among RV component suppliers, in Australia.",
+   "why": null,
+   "url": "https://www.aboutcampbtob.eu/aussie-traveller-agrees-to-acquire-camec/",
+   "source": "Aboutcamp BtoB",
+   "lang": "en",
+   "country": "eu",
+   "published": "2026-07-20",
+   "also": []
+  },
+  {
+   "id": "7b8226ee360e4ae8",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "The 60th Salon des Véhicules de Loisirs",
+   "title_original": "60e Salon des Véhicules de Loisirs",
+   "summary": "France's leisure-vehicle show reaches its 60th edition.",
+   "why": null,
+   "url": "https://www.univdl.com/salon-des-vehicules-de-loisirs-2026/",
+   "source": "UNI VDL (French industry association)",
+   "lang": "fr",
+   "country": "fr",
+   "published": "2026-07-18",
+   "also": []
+  },
+  {
+   "id": "98d800b06f782ba8",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "France confirms its pull with European motorhome travellers",
+   "title_original": "La France confirme son attractivité auprès des camping-caristes européens",
+   "summary": "The French industry association reports on inbound motorhome tourism.",
+   "why": null,
+   "url": "https://www.univdl.com/camping-caristes-europeens-france-attractivite/",
+   "source": "UNI VDL (French industry association)",
+   "lang": "fr",
+   "country": "fr",
+   "published": "2026-07-17",
+   "also": []
+  },
+  {
+   "id": "871b32482f8a89fa",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Dexko"
+   ],
+   "title": "Eric McGinnis appointed Dexko chief executive",
+   "title_original": "Eric McGinnis neuer Dexko-CEO",
+   "summary": "Leadership change at the chassis and running-gear group.",
+   "why": null,
+   "url": "https://www.camperprofessional.de/eric-mcginnis-neuer-dexko-ceo/",
+   "source": "Camper Professional DE",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-17",
+   "also": []
+  },
+  {
+   "id": "75569f3b451d6dc5",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Niesmann"
+   ],
+   "title": "Niesmann Caravaning becomes a shareholder in Caravaning Center Bad Kreuznach",
+   "title_original": "Niesmann Caravaning wird Gesellschafter im Caravaning Center Bad Kreuznach",
+   "summary": "Retail consolidation in Germany.",
+   "why": null,
+   "url": "https://www.camperprofessional.de/niesmann-caravaning-wird-gesellschafter-im-caravaning-center-bad-kreuznach/",
+   "source": "Camper Professional DE",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-16",
+   "also": []
+  },
+  {
+   "id": "8a956cb288482fce",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "Caravan Salon promises the widest variety of caravans on show",
+   "title_original": "",
+   "summary": "Organiser positioning ahead of the Düsseldorf show in late August.",
+   "why": null,
+   "url": "https://www.aboutcampbtob.eu/caravan-salon-will-showcase-the-worlds-widest-variety-of-caravans/",
+   "source": "Aboutcamp BtoB",
+   "lang": "en",
+   "country": "eu",
+   "published": "2026-07-15",
+   "also": [
+    "promobil"
+   ]
+  },
+  {
+   "id": "00c68ad2ed9c9e93",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "JB Group acquires Network RV",
+   "title_original": "",
+   "summary": "Aftermarket and dealer-services consolidation.",
+   "why": null,
+   "url": "https://www.aboutcampbtob.eu/jb-group-announces-acquisition-of-network-rv/",
+   "source": "Aboutcamp BtoB",
+   "lang": "en",
+   "country": "eu",
+   "published": "2026-07-14",
+   "also": []
+  },
+  {
+   "id": "ada123d8edf5f404",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [],
+   "title": "German camping market stays strong but shows first notes of caution",
+   "title_original": "Camping bleibt stark – doch der Markt zeigt erste Signale zur Vorsicht",
+   "summary": "Campingwirtschaft reports continued strength alongside early warning signals.",
+   "why": null,
+   "url": "https://campingwirtschaft.de/2026/07/09/camping-bleibt-stark-doch-der-markt-zeigt-erste-signale-zur-vorsicht/",
+   "source": "Campingwirtschaft",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-09",
+   "also": []
+  },
+  {
+   "id": "fb4582a330fd42df",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Volkswagen"
+   ],
+   "title": "Fernando Badia takes over European and international sales at VW Commercial Vehicles",
+   "title_original": "Fernando Badia übernimmt bei VW-Nutzfahrzeuge die Leitung Vertrieb Europa und International",
+   "summary": "",
+   "why": null,
+   "url": "https://www.camperprofessional.de/fernando-badia-ubernimmt-bei-vw-nutzfahrzeuge-die-leitung-vertrieb-europa-und-international/",
+   "source": "Camper Professional DE",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-09",
+   "also": []
+  },
+  {
+   "id": "182a1b52e38111b2",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Trigano"
+   ],
+   "title": "Trigano group revenue up 1.6% in Q3",
+   "title_original": "Trigano-Gruppe verzeichnet Umsatzwachstum von 1,6 Prozent in Q3",
+   "summary": "Modest growth for Europe's largest leisure-vehicle group.",
+   "why": null,
+   "url": "https://www.camperprofessional.de/trigano-gruppe-verzeichnet-umsatzwachstum-von-16-prozent-in-q3/",
+   "source": "Camper Professional DE",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-07-08",
+   "also": [
+    "Google News EN — listed OEMs and suppliers"
+   ]
+  },
+  {
+   "id": "da21162a1ba1991e",
+   "category": "industry",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Knaus Tabbert"
+   ],
+   "title": "Knaus Tabbert reorganises its management team as part of its transformation",
+   "title_original": "",
+   "summary": "",
+   "why": null,
+   "url": "https://www.knaustabbert.de/en/press/press-releases/knaus-tabbert-reorganises-management-team-as-part-of-its-transformation/",
+   "source": "Knaus Tabbert press releases",
+   "lang": "en",
+   "country": "de",
+   "published": "2026-06-19",
+   "also": []
+  }
+ ]
+}

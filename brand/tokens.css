@@ -1,0 +1,156 @@
+/* ============================================================
+   RV News — brand tokens
+   Derived from the "Thetford Design System" project in Claude Design
+   (colors_and_type.css). Do not invent new brand values here; if the
+   design system changes, re-pull it and update this file.
+
+   Fonts reference brand/fonts/*.woff2. scripts/build.py rewrites each
+   url(...) into an inlined base64 data URI, because published Artifacts
+   block every external request.
+   ============================================================ */
+
+/* ---------- Barlow (latin + latin-ext, 5 cuts) ---------- */
+@font-face { font-family:'Barlow'; font-style:normal; font-weight:400; font-display:swap;
+  src:url('fonts/barlow-400-latin-ext.woff2') format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family:'Barlow'; font-style:normal; font-weight:400; font-display:swap;
+  src:url('fonts/barlow-400-latin.woff2') format('woff2'); }
+@font-face { font-family:'Barlow'; font-style:normal; font-weight:500; font-display:swap;
+  src:url('fonts/barlow-500-latin-ext.woff2') format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family:'Barlow'; font-style:normal; font-weight:500; font-display:swap;
+  src:url('fonts/barlow-500-latin.woff2') format('woff2'); }
+@font-face { font-family:'Barlow'; font-style:normal; font-weight:600; font-display:swap;
+  src:url('fonts/barlow-600-latin-ext.woff2') format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family:'Barlow'; font-style:normal; font-weight:600; font-display:swap;
+  src:url('fonts/barlow-600-latin.woff2') format('woff2'); }
+@font-face { font-family:'Barlow'; font-style:normal; font-weight:700; font-display:swap;
+  src:url('fonts/barlow-700-latin-ext.woff2') format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family:'Barlow'; font-style:normal; font-weight:700; font-display:swap;
+  src:url('fonts/barlow-700-latin.woff2') format('woff2'); }
+@font-face { font-family:'Barlow'; font-style:normal; font-weight:900; font-display:swap;
+  src:url('fonts/barlow-900-latin-ext.woff2') format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family:'Barlow'; font-style:normal; font-weight:900; font-display:swap;
+  src:url('fonts/barlow-900-latin.woff2') format('woff2'); }
+
+:root {
+  /* ----- Brand core ----- */
+  --thetford-blue:  #0086CD;
+  --thetford-navy:  #00273C;
+  --thetford-black: #2F2F2F;
+
+  /* ----- Blue scale ----- */
+  --blue-900: #00273C;
+  --blue-700: #005A8A;
+  --blue-500: #0086CD;
+  --blue-300: #80C2E6;
+  --blue-200: #B4DBF0;
+  --blue-100: #CCE7F5;
+
+  /* ----- Green accent (secondary only, never primary) ----- */
+  --green-500: #94C9A9;
+  --green-300: #C6ECAE;
+
+  /* ----- Neutrals ----- */
+  --neutral-900: #2F2F2F;
+  --neutral-700: #5C5C5C;
+  --neutral-500: #8A8A8A;
+  --neutral-300: #DFDFDF;
+  --neutral-200: #ECECEC;
+  --neutral-100: #F5F7F9;
+  --neutral-0:   #FFFFFF;
+
+  /* ----- Semantic ----- */
+  --color-bg:           var(--neutral-0);
+  --color-bg-subtle:    var(--neutral-100);
+  --color-bg-tint:      var(--blue-100);
+  --color-surface:      var(--neutral-0);
+  --color-surface-dark: var(--blue-900);
+
+  --color-fg:         var(--neutral-900);
+  --color-fg-muted:   var(--neutral-700);
+  --color-fg-subtle:  var(--neutral-500);
+  --color-fg-on-dark: var(--neutral-0);
+
+  --color-primary:       var(--blue-500);
+  --color-primary-hover: var(--blue-700);
+  --color-primary-press: var(--blue-900);
+  --color-primary-fg:    var(--neutral-0);
+
+  --color-border:        #E2E6EA;
+  --color-border-strong: var(--neutral-300);
+  --color-divider:       var(--neutral-200);
+
+  --color-success: #2E8B57;
+  --color-warning: #E0A100;
+  --color-danger:  #C8362F;
+  --color-info:    var(--blue-500);
+
+  /* ----- Type ----- */
+  --font-sans:    'Barlow','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  --font-display: 'Barlow','Segoe UI',system-ui,sans-serif;
+  --font-mono:    ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+
+  --fs-display: 64px;
+  --fs-h1:      48px;
+  --fs-h2:      36px;
+  --fs-h3:      28px;
+  --fs-h4:      22px;
+  --fs-h5:      18px;
+  --fs-body:    16px;
+  --fs-small:   14px;
+  --fs-caption: 12px;
+  --fs-eyebrow: 13px;
+
+  --lh-tight:  1.05;
+  --lh-snug:   1.2;
+  --lh-normal: 1.45;
+  --lh-loose:  1.6;
+
+  --tracking-eyebrow: 0.12em;
+  --tracking-button:  0.02em;
+  --tracking-tight:  -0.01em;
+
+  --fw-light:300; --fw-regular:400; --fw-medium:500;
+  --fw-semibold:600; --fw-bold:700; --fw-extra:800; --fw-black:900;
+
+  /* ----- Spacing (4px base) ----- */
+  --sp-1:4px;  --sp-2:8px;  --sp-3:12px; --sp-4:16px; --sp-5:20px;
+  --sp-6:24px; --sp-8:32px; --sp-10:40px; --sp-12:48px;
+  --sp-16:64px; --sp-20:80px; --sp-24:96px;
+
+  /* ----- Radii ----- */
+  --r-xs:2px; --r-sm:4px; --r-md:8px; --r-lg:12px; --r-xl:20px; --r-pill:999px;
+
+  /* ----- Shadows ----- */
+  --shadow-xs: 0 1px 2px rgba(0,39,60,0.06);
+  --shadow-sm: 0 2px 6px rgba(0,39,60,0.08);
+  --shadow-md: 0 6px 18px rgba(0,39,60,0.10);
+  --shadow-lg: 0 14px 38px rgba(0,39,60,0.14);
+  --shadow-focus: 0 0 0 3px rgba(0,134,205,0.35);
+
+  /* ----- Motion ----- */
+  --ease-standard: cubic-bezier(0.2,0.6,0.2,1);
+  --ease-out: cubic-bezier(0,0,0.2,1);
+  --dur-fast:120ms; --dur-base:200ms; --dur-slow:320ms;
+}
+
+/* ---------- Type classes (from the design system) ---------- */
+.t-display { font-family:var(--font-display); font-weight:var(--fw-black); font-size:var(--fs-display);
+             line-height:var(--lh-tight); letter-spacing:var(--tracking-tight); text-transform:uppercase; }
+.t-h1 { font-family:var(--font-display); font-weight:var(--fw-bold);     font-size:var(--fs-h1); line-height:var(--lh-snug); letter-spacing:var(--tracking-tight); }
+.t-h2 { font-family:var(--font-display); font-weight:var(--fw-bold);     font-size:var(--fs-h2); line-height:var(--lh-snug); }
+.t-h3 { font-family:var(--font-display); font-weight:var(--fw-semibold); font-size:var(--fs-h3); line-height:var(--lh-snug); }
+.t-h4 { font-family:var(--font-display); font-weight:var(--fw-semibold); font-size:var(--fs-h4); line-height:var(--lh-snug); }
+.t-h5 { font-family:var(--font-sans);    font-weight:var(--fw-semibold); font-size:var(--fs-h5); line-height:var(--lh-normal); }
+
+.t-body    { font-family:var(--font-sans); font-weight:var(--fw-regular); font-size:var(--fs-body);    line-height:var(--lh-normal); }
+.t-lead    { font-family:var(--font-sans); font-weight:var(--fw-regular); font-size:20px;              line-height:var(--lh-normal); color:var(--color-fg-muted); }
+.t-small   { font-family:var(--font-sans); font-weight:var(--fw-regular); font-size:var(--fs-small);   line-height:var(--lh-normal); color:var(--color-fg-muted); }
+.t-caption { font-family:var(--font-sans); font-weight:var(--fw-regular); font-size:var(--fs-caption); line-height:var(--lh-normal); color:var(--color-fg-subtle); }
+
+.t-eyebrow { font-family:var(--font-sans); font-weight:var(--fw-bold); font-size:var(--fs-eyebrow);
+             line-height:1.2; letter-spacing:var(--tracking-eyebrow); text-transform:uppercase; color:var(--color-primary); }

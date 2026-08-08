@@ -1,0 +1,21 @@
+RV News — published Artifact
+============================
+
+Stable URL (shared with the product-management team; keep it stable):
+
+  https://claude.ai/code/artifact/99a351e5-79d7-4553-8049-4ced99cded02
+
+Republishing from Claude Code:
+
+  - From the conversation that first published it, or any conversation that has
+    published this same file path, just publish build/index.html again.
+  - From any OTHER conversation or machine, pass the URL above as the `url`
+    argument to the Artifact tool. Without it a NEW link is minted and everyone
+    has to re-bookmark.
+
+The page is private until shared from its own share menu. That has been done
+once; refreshes update the same link and do not need resharing.
+
+Editions published
+------------------
+2026-W32   8 Aug 2026   96 items from 309 collected, 23 sources

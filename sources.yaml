@@ -1,0 +1,262 @@
+# ============================================================================
+# RV News — sources
+#
+# TO ADD A SOURCE: copy an existing block, change the fields. Keep the
+# two-space indentation and the leading "- ".
+# TO TURN ONE OFF: add a line "disabled: true" under it. Better than deleting,
+# because the comment explaining why it was added stays put.
+#
+# Fields
+#   name        what shows on the dashboard
+#   url         the feed address
+#   lang        language of the CONTENT (de/en/nl/fr/it/es/sv)
+#               Note: some feeds lie in their metadata, so this is declared
+#               here by hand rather than read from the feed.
+#   country     de/nl/gb/fr/it/es/se/eu — drives the country chip
+#   categories  vehicles / accessories / competitor / industry
+#   tier        1 = read every edition, 2 = supporting. Curation weights by this.
+#   pages       walk this many pages of feed history (WordPress ?paged=N).
+#               Needed for high-volume feeds: most expose only 10 items, and
+#               the busiest post 5-8 per DAY, so one page holds under two days.
+#   type        omit for a feed; "scrape" for the HTML fallback
+#   google_news true strips the " - Publisher" suffix Google appends
+#   title_only  true means the feed carries no article text worth reading
+#
+# Every URL below was verified to return real, dated items on 2026-08-07.
+# ============================================================================
+
+sources:
+
+  # ---------------------------------------------------------------- core ----
+  # These six do most of the work.
+
+  - name: "Aboutcamp BtoB"
+    url: "https://www.aboutcampbtob.eu/feed/"
+    lang: en
+    country: eu
+    tier: 1
+    pages: 3
+    categories: [vehicles, accessories, competitor, industry]
+    # The single most useful source found: pan-European B2B, in English,
+    # and the only one that covers all four categories daily.
+
+  - name: "promobil"
+    url: "https://www.promobil.de/rss/all"
+    lang: de
+    country: de
+    tier: 1
+    categories: [vehicles, accessories, industry]
+    # Must be /rss/all. There is no /feed/, and /rss/news was abandoned in 2025.
+
+  - name: "Reisemobil International"
+    url: "https://www.reisemobil-international.de/feed/"
+    lang: de
+    country: de
+    tier: 1
+    pages: 5
+    title_only: true
+    categories: [vehicles, accessories]
+    # The new-model firehose, 5-8 posts/day into a 10-item window, and it
+    # ships empty descriptions. Hence pages: 5 and title_only.
+
+  - name: "Camper Professional DE"
+    url: "https://www.camperprofessional.de/feed/"
+    lang: de
+    country: de
+    tier: 1
+    pages: 2
+    categories: [vehicles, accessories, competitor, industry]
+    # German B2B. Declares en-US in its metadata but serves German.
+
+  - name: "Campingtrend"
+    url: "https://www.campingtrend.nl/nieuws/feed/"
+    lang: nl
+    country: nl
+    tier: 1
+    pages: 2
+    categories: [accessories, competitor, vehicles]
+    # Best coverage of the component layer Thetford actually competes in.
+    # Must be /nieuws/feed/ — the root /feed/ returns valid XML with 0 items.
+
+  - name: "KampeerZaken"
+    url: "https://www.kampeerzaken.nl/feed/"
+    lang: nl
+    country: nl
+    tier: 1
+    pages: 2
+    categories: [vehicles, industry]
+
+  # ------------------------------------------------- market & registrations --
+
+  - name: "CIVD (German industry association)"
+    url: "https://www.civd.de/en/feed/?post_type=news"
+    lang: en
+    country: de
+    tier: 1
+    stale_after_days: 400
+    categories: [industry]
+    # Authoritative German and European registration statistics. Publishes in
+    # clusters around CMT (January) and Caravan Salon (late August), so long
+    # quiet spells are normal, not a fault. ?post_type=news is required.
+
+  - name: "UNI VDL (French industry association)"
+    url: "https://www.univdl.com/feed/"
+    lang: fr
+    country: fr
+    tier: 2
+    stale_after_days: 400
+    categories: [industry]
+
+  - name: "ASEICAR (Spanish trade association)"
+    url: "https://aseicar.org/noticias/feed/"
+    lang: es
+    country: es
+    tier: 2
+    stale_after_days: 400
+    categories: [industry]
+
+  - name: "Campingwirtschaft"
+    url: "https://www.campingwirtschaft.de/feed/"
+    lang: de
+    country: de
+    tier: 2
+    categories: [industry]
+    # Trade shows and industry politics. Leans campsite-operator, not vehicle.
+
+  # ------------------------------------------------------------ competitor --
+
+  - name: "Dometic Group (investor relations)"
+    url: "https://mfn.se/all/a/dometic-group.rss?lang=en"
+    lang: en
+    country: se
+    tier: 1
+    categories: [competitor, industry]
+    # ?lang=en is required or every release arrives twice, EN and SV.
+    # Financial and regulatory only — Dometic PRODUCT news comes via trade
+    # press and the Google News query below.
+
+  - name: "Thule Group (investor relations)"
+    url: "https://mfn.se/all/a/thule-group.rss?lang=en"
+    lang: en
+    country: se
+    tier: 2
+    categories: [competitor, industry]
+
+  - name: "Victron Energy"
+    url: "https://www.victronenergy.com/blog/feed/"
+    lang: en
+    country: nl
+    tier: 2
+    categories: [accessories, competitor]
+    # The only supplier feed that is both weekly and full-text.
+
+  - name: "Google News DE — competitor products"
+    url: "https://news.google.com/rss/search?q=(Truma+OR+Alde+OR+Webasto+OR+Dometic)+(Wohnmobil+OR+Reisemobil+OR+Caravan+OR+Camping)&hl=de&gl=DE&ceid=DE:de"
+    lang: de
+    country: de
+    tier: 1
+    google_news: true
+    title_only: true
+    stale_after_days: 400
+    categories: [competitor, accessories]
+    # Essential: Truma, Alde, Webasto, Vitrifrigo and Fiamma have no usable
+    # feeds of their own. Fiamma's own site has an expired TLS certificate.
+    # Caveat measured on 2026-08-07: Google News is not date-sorted and skews
+    # archival — this query returned 80 items of which only one fell inside a
+    # 10-day window. It works as a monthly net, not a weekly feed. That is why
+    # the first edition is collected with a wider --days window.
+
+  - name: "Google News — Thetford coverage"
+    url: "https://news.google.com/rss/search?q=Thetford+(Wohnmobil+OR+camper+OR+caravan+OR+motorhome+OR+RV)&hl=en-GB&gl=GB&ceid=GB:en"
+    lang: en
+    country: eu
+    tier: 2
+    google_news: true
+    title_only: true
+    stale_after_days: 400
+    categories: [accessories, industry]
+    # Your own press coverage. thetford.com's RSS returns zero items, so this
+    # is the only feed route to it.
+
+  - name: "Google News EN — listed OEMs and suppliers"
+    url: "https://news.google.com/rss/search?q=%22Knaus+Tabbert%22+OR+Trigano+OR+%22Erwin+Hymer%22+OR+Dometic&hl=en-GB&gl=GB&ceid=GB:en"
+    lang: en
+    country: eu
+    tier: 1
+    google_news: true
+    title_only: true
+    categories: [industry, competitor]
+    # Surfaces half-year results and analyst notes the same day.
+
+  - name: "Google News DE — new model announcements"
+    url: "https://news.google.com/rss/search?q=%22Wohnmobil%22+OR+%22Reisemobil%22+Neuheit&hl=de&gl=DE&ceid=DE:de"
+    lang: de
+    country: de
+    tier: 2
+    google_news: true
+    title_only: true
+    categories: [vehicles]
+    # Catches regional-press launch stories the trade titles miss.
+
+  # ----------------------------------------------- other European markets ---
+
+  - name: "Practical Motorhome"
+    url: "https://www.practicalmotorhome.com/feed/"
+    lang: en
+    country: gb
+    tier: 2
+    pages: 2
+    categories: [vehicles, industry]
+    # Full-text feed, so cheap to process. Carries UK consumer-show and
+    # dealer news that needs filtering out during curation.
+
+  - name: "CamperOnLine"
+    url: "https://www.camperonline.it/magazine/feed/"
+    lang: it
+    country: it
+    tier: 2
+    categories: [vehicles]
+    # Highest launch volume outside Germany, and a 38-item window, so it
+    # tolerates weekly polling without pagination.
+
+  - name: "CampingCarLeSite"
+    url: "https://www.campingcarlesite.com/feed/"
+    lang: fr
+    country: fr
+    tier: 2
+    pages: 2
+    categories: [vehicles, industry]
+    # Publishes per-brand model-year price lists.
+
+  - name: "Motor1 España — camper"
+    url: "https://es.motor1.com/rss/category/camper-autocaravanas/"
+    lang: es
+    country: es
+    tier: 2
+    categories: [vehicles]
+
+  - name: "Camperpress"
+    url: "https://www.camperpress.info/feed/"
+    lang: it
+    country: it
+    tier: 2
+    categories: [competitor, vehicles, industry]
+    # Runs component buying guides that name Dometic, Vitrifrigo and Thetford
+    # directly — unusually on-target for competitive comparison.
+
+  # ------------------------------------------------------ scraped fallback --
+
+  - name: "Knaus Tabbert press releases"
+    url: "https://www.knaustabbert.de/en/press/press-releases/"
+    type: scrape
+    item_selector: "a[href*='/press/press-releases/']"
+    lang: en
+    country: de
+    tier: 1
+    limit: 20
+    categories: [vehicles, industry]
+    # European RV manufacturers essentially do not publish feeds — of roughly
+    # 30 checked, only Volkswagen had one. This is the best of the scrapeable
+    # alternatives: a listed bellwether that pre-labels its own releases
+    # "New products" / "Financial news". Selector may need updating if they
+    # redesign; the collector will say so rather than fail silently.

@@ -1,0 +1,18 @@
+# Normalise line endings so a Windows checkout does not rewrite every file and
+# show the whole project as modified. Text is LF in the repository; Git converts
+# on checkout where the platform wants CRLF.
+* text=auto eol=lf
+
+# Never let Git touch these. CRLF injection corrupts a font or an image, and
+# diffs of them are noise.
+*.woff2 binary
+*.ttf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+
+# Generated. Kept in the repo so a fresh clone can publish without re-collecting,
+# but a 360 KB single-line-ish HTML diff is not worth reading.
+build/index.html   -diff linguist-generated
+archive/items.json -diff linguist-generated
+digests/*.json     -diff linguist-generated
