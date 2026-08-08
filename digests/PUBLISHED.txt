@@ -19,3 +19,4 @@ once; refreshes update the same link and do not need resharing.
 Editions published
 ------------------
 2026-W32   8 Aug 2026   96 items from 309 collected, 23 sources
+           8 Aug 2026   republished with the dark-mode contrast fix

@@ -170,6 +170,21 @@ inverted. Surface-to-ground separation is only 1.15:1, which is why `.tile`,
 `.pick`, and `.note` carry a hairline border — remove it and cards dissolve into
 the background in dark mode.
 
+**Theme token blocks are order-sensitive. Do not reorder them.** A media query
+adds no specificity, so a plain `:root` block placed *after*
+`@media (prefers-color-scheme: dark)` silently overrides it. That shipped once:
+the light defaults for `--accent-tint`, `--accent-text`, `--accent-fill`, and
+`--color-surface-raised` sat after the dark block, so under OS dark mode the
+"why it matters" callout kept a light blue background while inheriting light
+text, and was unreadable. The light `:root` block must stay first, the dark media
+query second, and the `[data-theme]` blocks last.
+
+It also shows how to test a theme properly: verifying with
+`data-theme="dark"` passes even when this is broken, because that selector
+outranks bare `:root`. **Always check the OS-preference path too** — set the
+emulated colour scheme and read the computed values back, rather than trusting
+the toggle.
+
 **Curation references items by index, not by retyped text.** `curate_*.py` sorts
 `pending.json` by `published` descending (stable sort, so indexes are
 reproducible) and refers to items positionally. Titles, URLs, sources, and dates
