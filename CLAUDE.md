@@ -84,7 +84,7 @@ starts silently dropping the interesting items.
 ```
 CLAUDE.md                 this file
 README.md                 user-facing instructions (Dennis)
-sources.yaml              23 verified sources; the one file meant for hand editing
+sources.yaml              24 verified sources; the one file meant for hand editing
 scripts/collect.py        fetch, paginate, dedupe, archive, health-check   (419 ln)
 scripts/curate_*.py       one per edition; the audit trail of what was chosen
 scripts/build.py          render + base64-inline into one HTML file        (399 ln)
@@ -268,7 +268,7 @@ Two more that only surface across machines:
 cross-platform, and paths use `pathlib` throughout. The `#!/usr/bin/env -S uv run
 --script` shebangs are inert on Windows; invoke through `uv run` everywhere.
 
-**Verified on Windows 11 with uv 0.12.3 on 8 August 2026**: all 23 sources
+**Verified on Windows 11 with uv 0.12.3 on 8 August 2026**: all 24 sources
 collected with no failures, non-ASCII source names printed correctly, the archive
 transferred through Git intact (151 of 159 items recognised as already seen), and
 `build.py` produced a file byte-identical to the macOS build.

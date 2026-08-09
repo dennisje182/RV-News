@@ -1,7 +1,7 @@
 # RV News — agent instructions
 
 Weekly monitor of the European RV industry for Thetford's product-management
-team. Collects from 23 verified trade sources in six languages, curates them into
+team. Collects from 24 verified trade sources in six languages, curates them into
 four categories with English summaries, and renders one self-contained HTML page.
 
 **`CLAUDE.md` in this folder is the full handover — intent, architecture, and the

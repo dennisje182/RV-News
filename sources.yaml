@@ -235,6 +235,16 @@ sources:
     tier: 2
     categories: [vehicles]
 
+  - name: "Motor1 France — camping-cars / caravanes"
+    url: "https://fr.motor1.com/rss/category/camping-car-caravane/"
+    lang: fr
+    country: fr
+    tier: 2
+    pages: 2
+    categories: [vehicles, accessories]
+    # Dedicated French feed, verified 2026-08-08 with 20 dated items.
+    # Adds launch and equipment coverage alongside CampingCarLeSite.
+
   - name: "Camperpress"
     url: "https://www.camperpress.info/feed/"
     lang: it

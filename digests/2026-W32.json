@@ -1,18 +1,57 @@
 {
  "edition": "2026-W32",
- "published_at": "2026-08-08T07:19:11+00:00",
+ "published_at": "2026-08-09T21:29:47+00:00",
  "window": {
   "from": "2026-07-08",
-  "to": "2026-08-07"
+  "to": "2026-08-09"
  },
- "collected": 309,
- "selected": 96,
- "dropped": 126,
- "merged": 87,
- "sources_ok": 23,
+ "collected": 331,
+ "selected": 100,
+ "dropped": 139,
+ "merged": 92,
+ "sources_ok": 24,
  "sources_failed": [],
  "sources_warned": [],
  "items": [
+  {
+   "id": "75e3be95c658afab",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Knaus"
+   ],
+   "title": "Knaus Nordwind is a new all-season luxury caravan",
+   "title_original": "Knaus Nordwind: nieuwe luxe caravan voor alle seizoenen",
+   "summary": "Campingtrend reports that Knaus is bringing back the Nordwind as a luxury caravan intended for year-round use.",
+   "why": null,
+   "url": "https://www.campingtrend.nl/nieuws/caravans-knaus-nordwind/",
+   "source": "Campingtrend",
+   "lang": "nl",
+   "country": "nl",
+   "published": "2026-08-09",
+   "also": []
+  },
+  {
+   "id": "3fe1766b15f25517",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Eifelland",
+    "Nissan"
+   ],
+   "title": "Eifelland tests the practical limits of an electric campervan",
+   "title_original": "Eifelland Relax auf Nissan Interstar-e : Ist dieser Elektro-Camper praxistauglich?",
+   "summary": "promobil tests the Eifelland Relax on Nissan's Interstar-e, one of the early electric campers claiming usable range, and finds its everyday practicality remains open to question.",
+   "why": null,
+   "url": "https://www.promobil.de/einzeltest/elektrischer-camper-von-eifelland-die-praxistauglichkeit-bleibt-zweifelhaft/",
+   "source": "promobil",
+   "lang": "de",
+   "country": "de",
+   "published": "2026-08-08",
+   "also": []
+  },
   {
    "id": "bbc7c359ecc82e97",
    "category": "vehicles",
@@ -65,6 +104,44 @@
    "source": "Reisemobil International",
    "lang": "de",
    "country": "de",
+   "published": "2026-08-07",
+   "also": []
+  },
+  {
+   "id": "f55e9795fe0cf63b",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "Adria"
+   ],
+   "title": "Adria completely reworks its Twin campervan for 2026",
+   "title_original": "Adria Twin (2026) : le campervan culte entièrement repensé",
+   "summary": "The revised Twin brings more daylight, a new interior, updated technology and a new White Edition 2 variant.",
+   "why": null,
+   "url": "https://fr.motor1.com/news/804130/adria-twin-2026-camping-car/",
+   "source": "Motor1 France — camping-cars / caravanes",
+   "lang": "fr",
+   "country": "fr",
+   "published": "2026-08-07",
+   "also": []
+  },
+  {
+   "id": "6687686517d471f5",
+   "category": "vehicles",
+   "competitor": false,
+   "pick": false,
+   "brands": [
+    "McLouis"
+   ],
+   "title": "McLouis updates several camper and van ranges for 2027",
+   "title_original": "Video Anteprime e Novità camper e van 2027: McLouis",
+   "summary": "CamperOnLine reports model-year changes across several McLouis ranges and vehicle categories for the 2027 season.",
+   "why": null,
+   "url": "https://www.camperonline.it/magazine/2026/08/07/video-anteprime-e-novita-camper-e-van-2027-mclouis/",
+   "source": "CamperOnLine",
+   "lang": "it",
+   "country": "it",
    "published": "2026-08-07",
    "also": []
   },
@@ -269,7 +346,9 @@
    "lang": "de",
    "country": "de",
    "published": "2026-08-05",
-   "also": []
+   "also": [
+    "Campingtrend"
+   ]
   },
   {
    "id": "7d3a85f324f5365f",
@@ -445,7 +524,10 @@
    "lang": "de",
    "country": "de",
    "published": "2026-08-03",
-   "also": []
+   "also": [
+    "Motor1 España — camper",
+    "Motor1 France — camping-cars / caravanes"
+   ]
   },
   {
    "id": "67eacf9a47eb72b3",

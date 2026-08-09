@@ -2,7 +2,7 @@
 
 A weekly monitor of the European RV industry for Thetford product management:
 new vehicles from OEMs, accessories and components, competitor moves, and market
-data. It collects from 23 verified trade sources in six languages, translates and
+data. It collects from 24 verified trade sources in six languages, translates and
 sorts what matters, and publishes a Thetford-branded page you can share with
 colleagues by link.
 

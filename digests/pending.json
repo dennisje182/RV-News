@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-07T14:25:35+00:00",
- "window_days": 30,
- "sources_ok": 23,
+ "generated_at": "2026-08-09T21:26:13+00:00",
+ "window_days": 10,
+ "sources_ok": 24,
  "sources_failed": [],
  "sources_warned": [],
  "items": [
@@ -5942,6 +5942,454 @@
    "tier": 1,
    "title_only": true,
    "collected_at": "2026-08-07T14:25:21+00:00"
+  },
+  {
+   "id": "21bf98603edc34cb",
+   "title": "¿Alternativa grande a una camper? La autocaravana Dethleffs Just Van te interesa",
+   "publisher": "",
+   "url": "https://es.motor1.com/news/804025/comprar-autocaravana-mas-practica-camper-base-fiat/",
+   "canonical": "https://es.motor1.com/news/804025/comprar-autocaravana-mas-practica-camper-base-fiat",
+   "summary_raw": "Sólo 2,20 metros de ancho, más espacio y un amplio garaje en la parte trasera",
+   "published": "2026-08-09T16:00:00+00:00",
+   "source": "Motor1 España — camper",
+   "source_type": "rss",
+   "lang": "es",
+   "country": "es",
+   "source_categories": [
+    "vehicles"
+   ],
+   "tier": 2,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:06+00:00"
+  },
+  {
+   "id": "75e3be95c658afab",
+   "title": "Knaus Nordwind: nieuwe luxe caravan voor alle seizoenen",
+   "publisher": "",
+   "url": "https://www.campingtrend.nl/nieuws/caravans-knaus-nordwind/",
+   "canonical": "https://campingtrend.nl/nieuws/caravans-knaus-nordwind",
+   "summary_raw": "Het bericht Knaus Nordwind: nieuwe luxe caravan voor alle seizoenen verscheen eerst op Campingtrend .",
+   "published": "2026-08-09T15:00:11+00:00",
+   "source": "Campingtrend",
+   "source_type": "rss",
+   "lang": "nl",
+   "country": "nl",
+   "source_categories": [
+    "accessories",
+    "competitor",
+    "vehicles"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "5bdf1fd55cd5bd17",
+   "title": "Dethleffs Just Van : profilé étroit comme alternative au campervan",
+   "publisher": "",
+   "url": "https://fr.motor1.com/news/804275/dethleffs-just-van-nouvel-amenagement-2026/",
+   "canonical": "https://fr.motor1.com/news/804275/dethleffs-just-van-nouvel-amenagement-2026",
+   "summary_raw": "Seulement 2,20 mètres de large, nouvel aménagement face à face et grande soute arrière",
+   "published": "2026-08-09T13:36:00+00:00",
+   "source": "Motor1 France — camping-cars / caravanes",
+   "source_type": "rss",
+   "lang": "fr",
+   "country": "fr",
+   "source_categories": [
+    "vehicles",
+    "accessories"
+   ],
+   "tier": 2,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:06+00:00"
+  },
+  {
+   "id": "bf55fb9b8d70007a",
+   "title": "App-Empfehlungen der Gen Z: Mit diesen Apps reisen junge Menschen",
+   "publisher": "",
+   "url": "https://www.promobil.de/weitere-ratgeber/die-reiseapps-der-gen-z-im-campingurlaub/",
+   "canonical": "https://promobil.de/weitere-ratgeber/die-reiseapps-der-gen-z-im-campingurlaub",
+   "summary_raw": "Diese Empfehlungen hat die Gen-Z für hilfreiche Apps im Campingurlaub ‒ darunter sind Anwendungen für die Wanderplanung, das Erstellen von Reisetagebüchern und Buchen lokaler Aktivitäten.",
+   "published": "2026-08-09T12:00:00+00:00",
+   "source": "promobil",
+   "source_type": "rss",
+   "lang": "de",
+   "country": "de",
+   "source_categories": [
+    "vehicles",
+    "accessories",
+    "industry"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "8c975b0760f8b912",
+   "title": "Die schönsten Campingplätze in Mittelitalien: 12 Top-Campingplätze für den Italien-Urlaub",
+   "publisher": "",
+   "url": "https://www.promobil.de/uebernachtungstipps/die-besten-campingplaetze-in-mittelitalien-kultur-landschaften-mediterrane-kuesten/",
+   "canonical": "https://promobil.de/uebernachtungstipps/die-besten-campingplaetze-in-mittelitalien-kultur-landschaften-mediterrane-kuesten",
+   "summary_raw": "Historische Städte, malerische Küsten und sanfte Hügellandschaften machen Mittelitalien zu einem vielseitigen Reiseziel. Wir zeigen die schönsten Campingplätze zwischen Toskana, Latium und Abruzzen.",
+   "published": "2026-08-09T08:00:00+00:00",
+   "source": "promobil",
+   "source_type": "rss",
+   "lang": "de",
+   "country": "de",
+   "source_categories": [
+    "vehicles",
+    "accessories",
+    "industry"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "e0885a2a1d4f790e",
+   "title": "Achterbadkamer in nieuwe Hobby Prestige halfintegralen",
+   "publisher": "",
+   "url": "https://www.campingtrend.nl/nieuws/campers-achterbadkamer-in-nieuwe-hobby-prestige-halfintegralen/",
+   "canonical": "https://campingtrend.nl/nieuws/campers-achterbadkamer-in-nieuwe-hobby-prestige-halfintegralen",
+   "summary_raw": "Het bericht Achterbadkamer in nieuwe Hobby Prestige halfintegralen verscheen eerst op Campingtrend .",
+   "published": "2026-08-09T07:00:23+00:00",
+   "source": "Campingtrend",
+   "source_type": "rss",
+   "lang": "nl",
+   "country": "nl",
+   "source_categories": [
+    "accessories",
+    "competitor",
+    "vehicles"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "76f8ad5bf115b6dc",
+   "title": "Rocket Bike (2027): Manufaktur-Campingbus für Fahrrad-Freaks",
+   "publisher": "",
+   "url": "https://www.promobil.de/neuheiten/campingbus-mit-xxl-garage-fuer-bis-zu-vier-fahrraeder-rocket-bike-2027/",
+   "canonical": "https://promobil.de/neuheiten/campingbus-mit-xxl-garage-fuer-bis-zu-vier-fahrraeder-rocket-bike-2027",
+   "summary_raw": "Wer sein Fahrrad liebt, der steckt es in den neuen Rocket Bike. Dieser MAN-Campingbus ist speziell auf die Bedürfnisse von Fahrrad-Sportlerinnen zugeschnitten.",
+   "published": "2026-08-09T06:00:00+00:00",
+   "source": "promobil",
+   "source_type": "rss",
+   "lang": "de",
+   "country": "de",
+   "source_categories": [
+    "vehicles",
+    "accessories",
+    "industry"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "b04f49a18463a7a5",
+   "title": "I slept in Dometic’s unusual inflatable tent, and it might be the perfect alternative to a rooftop tent",
+   "publisher": "t3.com",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN0hfZzNFUFFoeHR6UHpzbGU4ZDdhTzNmUVdTTUdaSndwM3lDT1ZhTHIwWE9CeUR6UFlSM2oxSEo3VkpKaEgzYXBNdVJfUVVnM1hhRThsR1dfWW54MzlBb2luUUVEUXdhdFVjT0owZ3A2bklyUjA0ZGdqQURXZTRwTkJsek5vTkVlcF9JQi0zNnVJTFcxX3hPMWE1YWJKbkdJVVFMQ21OeHVkR29kczZoWnpaR1g0dl9ZQ2FtTVRGVGNJZkp3bG1MUHM2UW9jYW5icHh6cFFCWQ?oc=5",
+   "canonical": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN0hfZzNFUFFoeHR6UHpzbGU4ZDdhTzNmUVdTTUdaSndwM3lDT1ZhTHIwWE9CeUR6UFlSM2oxSEo3VkpKaEgzYXBNdVJfUVVnM1hhRThsR1dfWW54MzlBb2luUUVEUXdhdFVjT0owZ3A2bklyUjA0ZGdqQURXZTRwTkJsek5vTkVlcF9JQi0zNnVJTFcxX3hPMWE1YWJKbkdJVVFMQ21OeHVkR29kczZoWnpaR1g0dl9ZQ2FtTVRGVGNJZkp3bG1MUHM2UW9jYW5icHh6cFFCWQ?oc=5",
+   "summary_raw": "",
+   "published": "2026-08-09T05:30:00+00:00",
+   "source": "Google News EN — listed OEMs and suppliers",
+   "source_type": "rss",
+   "lang": "en",
+   "country": "eu",
+   "source_categories": [
+    "industry",
+    "competitor"
+   ],
+   "tier": 1,
+   "title_only": true,
+   "collected_at": "2026-08-09T21:26:05+00:00"
+  },
+  {
+   "id": "3aeca55ed66fc9b7",
+   "title": "Dauertest Hobby Ontour Van 600 FT: Viel Platz und durchdachte Details",
+   "publisher": "",
+   "url": "https://www.promobil.de/einzeltest/neuer-campingbus-von-hobby-im-ersten-praxistest/",
+   "canonical": "https://promobil.de/einzeltest/neuer-campingbus-von-hobby-im-ersten-praxistest",
+   "summary_raw": "Er ist noch keine Woche in der Redaktion, da nimmt unser neuer Dauertester schon das erste Ziel ins Visier: Die Landesgartenschau in Ellwangen. Klappt dabei auf Anhieb alles?",
+   "published": "2026-08-09T04:00:00+00:00",
+   "source": "promobil",
+   "source_type": "rss",
+   "lang": "de",
+   "country": "de",
+   "source_categories": [
+    "vehicles",
+    "accessories",
+    "industry"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "1ab1442c4c196e27",
+   "title": "Sunlight UNLTD: la autocaravana T 7033P es la estrella de la nueva serie",
+   "publisher": "",
+   "url": "https://es.motor1.com/news/803988/autocarava-ford-viajes-aventura-cama/",
+   "canonical": "https://es.motor1.com/news/803988/autocarava-ford-viajes-aventura-cama",
+   "summary_raw": "Salón en lugar de cama trasera, cuarto de baño espacioso XXL y aspecto deportivo, al estilo Ford.",
+   "published": "2026-08-08T18:00:00+00:00",
+   "source": "Motor1 España — camper",
+   "source_type": "rss",
+   "lang": "es",
+   "country": "es",
+   "source_categories": [
+    "vehicles"
+   ],
+   "tier": 2,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:06+00:00"
+  },
+  {
+   "id": "1c40badee435967c",
+   "title": "Lume komt met lichtste caravan tot nu toe",
+   "publisher": "",
+   "url": "https://www.campingtrend.nl/nieuws/caravan-lume-2026/",
+   "canonical": "https://campingtrend.nl/nieuws/caravan-lume-2026",
+   "summary_raw": "Het bericht Lume komt met lichtste caravan tot nu toe verscheen eerst op Campingtrend .",
+   "published": "2026-08-08T15:00:41+00:00",
+   "source": "Campingtrend",
+   "source_type": "rss",
+   "lang": "nl",
+   "country": "nl",
+   "source_categories": [
+    "accessories",
+    "competitor",
+    "vehicles"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "d1606340626b3a53",
+   "title": "Die kürzesten Wohnwagen aller Marken (2026): Maximal mobil mit den kürzesten Caravans",
+   "publisher": "",
+   "url": "https://www.promobil.de/wohnwagen/neuheiten/wer-hat-den-kuerzesten-alle-kompakt-wohnwagen-2026-der-grossen-caravaning-marken/",
+   "canonical": "https://promobil.de/wohnwagen/neuheiten/wer-hat-den-kuerzesten-alle-kompakt-wohnwagen-2026-der-grossen-caravaning-marken",
+   "summary_raw": "Die kürzesten Wohnwagen 2026 passen zum Großteil der Zugwagen und auch gut zu E-Autos. Welches Modell könnte Ihr perfekter Reisebegleiter werden?",
+   "published": "2026-08-08T12:00:00+00:00",
+   "source": "promobil",
+   "source_type": "rss",
+   "lang": "de",
+   "country": "de",
+   "source_categories": [
+    "vehicles",
+    "accessories",
+    "industry"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "e82fe4b80eb7278a",
+   "title": "ANWB Alarmcentrale heeft het druk in vakantiezomer 2026",
+   "publisher": "",
+   "url": "https://www.campingtrend.nl/nieuws/kamperen-drukke-2026-zomer-anwb-alarmcentrale/",
+   "canonical": "https://campingtrend.nl/nieuws/kamperen-drukke-2026-zomer-anwb-alarmcentrale",
+   "summary_raw": "Het bericht ANWB Alarmcentrale heeft het druk in vakantiezomer 2026 verscheen eerst op Campingtrend .",
+   "published": "2026-08-08T07:00:58+00:00",
+   "source": "Campingtrend",
+   "source_type": "rss",
+   "lang": "nl",
+   "country": "nl",
+   "source_categories": [
+    "accessories",
+    "competitor",
+    "vehicles"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "3fe1766b15f25517",
+   "title": "Eifelland Relax auf Nissan Interstar-e : Ist dieser Elektro-Camper praxistauglich?",
+   "publisher": "",
+   "url": "https://www.promobil.de/einzeltest/elektrischer-camper-von-eifelland-die-praxistauglichkeit-bleibt-zweifelhaft/",
+   "canonical": "https://promobil.de/einzeltest/elektrischer-camper-von-eifelland-die-praxistauglichkeit-bleibt-zweifelhaft",
+   "summary_raw": "Der Eifelland Relax auf Nissan Interstar-e soll einer der ersten E-Camper mit ausreichend Reichweite sein. Ob das stimmt, haben wir getestet.",
+   "published": "2026-08-08T06:00:00+00:00",
+   "source": "promobil",
+   "source_type": "rss",
+   "lang": "de",
+   "country": "de",
+   "source_categories": [
+    "vehicles",
+    "accessories",
+    "industry"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "3fc54562bdf272df",
+   "title": "Clever Duo 540 (2026) im Test: Preiswerter 5,41-Meter-Bus mit Bad und 2 Betten",
+   "publisher": "",
+   "url": "https://www.promobil.de/einzeltest/clever-duo-540-im-test-kompakter-kastenwagen-fuer-zwei-personen/",
+   "canonical": "https://promobil.de/einzeltest/clever-duo-540-im-test-kompakter-kastenwagen-fuer-zwei-personen",
+   "summary_raw": "Kompakte Zweischläfer-Vans liegen im Trend. Wie clever der Clever-Van-Ausbau ist, haben wir für Sie getestet.",
+   "published": "2026-08-08T04:00:00+00:00",
+   "source": "promobil",
+   "source_type": "rss",
+   "lang": "de",
+   "country": "de",
+   "source_categories": [
+    "vehicles",
+    "accessories",
+    "industry"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "12cfd7c4ac27cd79",
+   "title": "Knaus Tabbert (XTRA:KTA) Stock Can Profit Repair Outrun Lingering Demand Doubts",
+   "publisher": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPanJBV01aNHlNTXZyMnMzbEtyVWJ6QWZyTnlFY1FIdE9MNVFEdW1ZNXBBMkRqb1ZoUmluWVZ6T25MakZvY29pSk5mN0Zsc3hhLXgtZHNtMmkxSS1lTU9SeEFXeTRRa0FYRGVNVlF6Y2dqMGJ6VzN5YWpqZS1DQXZpM1JtTVRLc0hNVklnUXViTTNOdGhEWjEzWWV2cEd3MV9Gb1RPWkNERFNPaWdydmdrNE1xYUVSNEY2NVpJQWRISmFDaUtvdnpGUHdsWGw3MlVJTHMzcdIB2gFBVV95cUxNUk9TTTI1MkFZNERVTC1TekNCWkNGdmdha0ltVGQ5RDFnZTNJc2pmLVNwbkh6bGh2RGVPNWtqcEtMaGtwMFZtWThkUjZOanMxeEYzVGpkMXNEZl9DLXNjUS1UeXBab09zbFZpWjdfMTEyZUhTY1RGMndRbG9tX3lEV3d0emtmM3puNlo1bVBEZ1dna1dmWl9jOUhkbmZyRkJXRkxXNnhwUldGaTUyWGx1QkNweWRmbHRXaEtZSlJYX0ViT1pkWkdZdXZyY0RjOXItUHFqd2ZIdXowQQ?oc=5",
+   "canonical": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPanJBV01aNHlNTXZyMnMzbEtyVWJ6QWZyTnlFY1FIdE9MNVFEdW1ZNXBBMkRqb1ZoUmluWVZ6T25MakZvY29pSk5mN0Zsc3hhLXgtZHNtMmkxSS1lTU9SeEFXeTRRa0FYRGVNVlF6Y2dqMGJ6VzN5YWpqZS1DQXZpM1JtTVRLc0hNVklnUXViTTNOdGhEWjEzWWV2cEd3MV9Gb1RPWkNERFNPaWdydmdrNE1xYUVSNEY2NVpJQWRISmFDaUtvdnpGUHdsWGw3MlVJTHMzcdIB2gFBVV95cUxNUk9TTTI1MkFZNERVTC1TekNCWkNGdmdha0ltVGQ5RDFnZTNJc2pmLVNwbkh6bGh2RGVPNWtqcEtMaGtwMFZtWThkUjZOanMxeEYzVGpkMXNEZl9DLXNjUS1UeXBab09zbFZpWjdfMTEyZUhTY1RGMndRbG9tX3lEV3d0emtmM3puNlo1bVBEZ1dna1dmWl9jOUhkbmZyRkJXRkxXNnhwUldGaTUyWGx1QkNweWRmbHRXaEtZSlJYX0ViT1pkWkdZdXZyY0RjOXItUHFqd2ZIdXowQQ?oc=5",
+   "summary_raw": "",
+   "published": "2026-08-07T20:46:34+00:00",
+   "source": "Google News EN — listed OEMs and suppliers",
+   "source_type": "rss",
+   "lang": "en",
+   "country": "eu",
+   "source_categories": [
+    "industry",
+    "competitor"
+   ],
+   "tier": 1,
+   "title_only": true,
+   "collected_at": "2026-08-09T21:26:05+00:00"
+  },
+  {
+   "id": "62224a400e5e19f7",
+   "title": "Pössl Roadstar XL Evo 2026: camper todoterreno para las aventuras de verano",
+   "publisher": "",
+   "url": "https://es.motor1.com/news/803857/comprar-furgoneta-camper-todorreno-mercedes-precio/",
+   "canonical": "https://es.motor1.com/news/803857/comprar-furgoneta-camper-todorreno-mercedes-precio",
+   "summary_raw": "Casi 7 metros de longitud, cama elevable eléctrica y más espacio de almacenamiento, con base de furgoneta Mercedes-Benz.",
+   "published": "2026-08-07T20:00:00+00:00",
+   "source": "Motor1 España — camper",
+   "source_type": "rss",
+   "lang": "es",
+   "country": "es",
+   "source_categories": [
+    "vehicles"
+   ],
+   "tier": 2,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:06+00:00"
+  },
+  {
+   "id": "d5074275891a0e35",
+   "title": "Jamet gaat met nieuwe Offtrail de ruigere kant op",
+   "publisher": "",
+   "url": "https://www.kampeerzaken.nl/jamet-gaat-met-nieuwe-offtrail-de-ruigere-kant-op/",
+   "canonical": "https://kampeerzaken.nl/jamet-gaat-met-nieuwe-offtrail-de-ruigere-kant-op",
+   "summary_raw": "Jamet gaat met nieuwe Offtrail de ruigere kant op Jamet breidt zijn programma voor modeljaar 2027 uit met de Offtrail. De nieuwe tweepersoons vouwwagen is gebaseerd op de bekende Jamet Compact, maar krijgt een stoerder uiterlijk met een zwarte wagenbak, grote banden met een grof profiel, aluminium traanplaat en een reservewiel aan de zijkant. Aan de compacte opzet verandert niets. De Offtrail is duidelijk bedoeld voor kampeerders die de uitstraling van een avontuurlijker model zoeken, terwijl de vertrouwde basis van de Jamet Compact behouden blijft. De techniek en tentconstructie zijn grotendeels gelijk, de buitenkant oogt duidelijk anders. Bekende basis, andere uitstraling De wagenbak is…",
+   "published": "2026-08-07T18:48:41+00:00",
+   "source": "KampeerZaken",
+   "source_type": "rss",
+   "lang": "nl",
+   "country": "nl",
+   "source_categories": [
+    "vehicles",
+    "industry"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "6687686517d471f5",
+   "title": "Video Anteprime e Novità camper e van 2027: McLouis",
+   "publisher": "",
+   "url": "https://www.camperonline.it/magazine/2026/08/07/video-anteprime-e-novita-camper-e-van-2027-mclouis/",
+   "canonical": "https://camperonline.it/magazine/2026/08/07/video-anteprime-e-novita-camper-e-van-2027-mclouis",
+   "summary_raw": "Grandi novità in casa McLouis per la stagione 2027, che coinvolgono più gamme e categorie della su L'articolo Video Anteprime e Novità camper e van 2027: McLouis proviene da CamperOnLine Magazine .",
+   "published": "2026-08-07T16:05:01+00:00",
+   "source": "CamperOnLine",
+   "source_type": "rss",
+   "lang": "it",
+   "country": "it",
+   "source_categories": [
+    "vehicles"
+   ],
+   "tier": 2,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:06+00:00"
+  },
+  {
+   "id": "a112f553b6bd5d75",
+   "title": "Camping de la Moselle bij Nancy: fijne tussenstop aan de Moezel",
+   "publisher": "",
+   "url": "https://www.campingtrend.nl/nieuws/campings-camping-de-la-moselle-bij-nancy-in-frankrijk/",
+   "canonical": "https://campingtrend.nl/nieuws/campings-camping-de-la-moselle-bij-nancy-in-frankrijk",
+   "summary_raw": "Het bericht Camping de la Moselle bij Nancy: fijne tussenstop aan de Moezel verscheen eerst op Campingtrend .",
+   "published": "2026-08-07T15:00:18+00:00",
+   "source": "Campingtrend",
+   "source_type": "rss",
+   "lang": "nl",
+   "country": "nl",
+   "source_categories": [
+    "accessories",
+    "competitor",
+    "vehicles"
+   ],
+   "tier": 1,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:04+00:00"
+  },
+  {
+   "id": "f55e9795fe0cf63b",
+   "title": "Adria Twin (2026) : le campervan culte entièrement repensé",
+   "publisher": "",
+   "url": "https://fr.motor1.com/news/804130/adria-twin-2026-camping-car/",
+   "canonical": "https://fr.motor1.com/news/804130/adria-twin-2026-camping-car",
+   "summary_raw": "Plus de lumière, un nouvel intérieur, une technologie moderne et une nouvelle White Edition 2.",
+   "published": "2026-08-07T11:14:00+00:00",
+   "source": "Motor1 France — camping-cars / caravanes",
+   "source_type": "rss",
+   "lang": "fr",
+   "country": "fr",
+   "source_categories": [
+    "vehicles",
+    "accessories"
+   ],
+   "tier": 2,
+   "title_only": false,
+   "collected_at": "2026-08-09T21:26:06+00:00"
+  },
+  {
+   "id": "dbce7490421f3f08",
+   "title": "Kühlboxen im Test 2026: Dieses smarte Modell halt am längsten eiskalt",
+   "publisher": "IMTEST",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcklWWDFWV3ZlSkItZkRpSkdkQlpLMGNJel9GZkJRNGFUUzdPZE13LUJlRUZlRnUtZWNTS18tdWY3OTRrVG5JQnYtei1rSG1hQTEzNkQzMzhPUkZMZGZ0MXI3N1F3a2ZQVzBiUTNSaXd4QW9HSUU4MjRocThXTkQ5MW5OMDdaUThkNUtPMmZFZmdFMk5NRjdYYzBNbVlCdDZrTU5WODNheFlsbUUzQXc?oc=5",
+   "canonical": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcklWWDFWV3ZlSkItZkRpSkdkQlpLMGNJel9GZkJRNGFUUzdPZE13LUJlRUZlRnUtZWNTS18tdWY3OTRrVG5JQnYtei1rSG1hQTEzNkQzMzhPUkZMZGZ0MXI3N1F3a2ZQVzBiUTNSaXd4QW9HSUU4MjRocThXTkQ5MW5OMDdaUThkNUtPMmZFZmdFMk5NRjdYYzBNbVlCdDZrTU5WODNheFlsbUUzQXc?oc=5",
+   "summary_raw": "",
+   "published": "2026-08-06T11:45:20+00:00",
+   "source": "Google News DE — competitor products",
+   "source_type": "rss",
+   "lang": "de",
+   "country": "de",
+   "source_categories": [
+    "competitor",
+    "accessories"
+   ],
+   "tier": 1,
+   "title_only": true,
+   "collected_at": "2026-08-09T21:26:05+00:00"
   }
  ]
 }
