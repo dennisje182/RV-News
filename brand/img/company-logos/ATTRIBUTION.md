@@ -10,4 +10,25 @@ not fetched by the reader's browser.
 | `burstner.svg` | Bürstner | [Bürstner public website](https://www.buerstner.com/_default_upload_bucket/buerstner-relaunch-logo_1.svg) | Brand asset supplied by the company |
 | `promobil.svg` | promobil | [promobil public website](https://www.promobil.de/img/pro/logo-banner.svg) | Brand asset supplied by the publisher |
 | `truma.svg` | Truma | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Truma_firmenlogo.jpg) | Compact embedded copy of Truma's CC BY-SA 3.0 logo |
-| `knaus-tabbert.svg` | Knaus Tabbert | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Knaus_Tabbert_Logo.svg) | Compact vector rendering based on the public-domain text logo |
+
+## Only real logo files belong here
+
+An asset must be a genuine vector or raster copy of the company's own mark. Do
+not approximate a logotype by setting the company name in a substitute typeface —
+that misrepresents a real company's trademark, and `<text>` in an SVG renders
+differently depending on the fonts the reader happens to have.
+
+`knaus-tabbert.svg` was removed on 9 August 2026 for exactly this. It set "KNAUS
+TABBERT" in Arial with a hand-drawn swoosh, and carried a corrupted glyph
+fragment that rendered as stray marks under the wordmark.
+
+When no genuine asset is available, add nothing. `brand_initials()` in
+`build.py` falls back to a neutral monogram, which is the honest outcome and is
+what the code comments already say should happen.
+
+### Wanted, if a genuine file can be sourced
+- Knaus Tabbert — currently shows a "KT" monogram
+- promobil — the current `logo-banner.svg` is a small square badge that is
+  illegible at 30px; a horizontal wordmark would read properly
+- Truma — the current file is a JPEG wrapped in SVG, so it is lossy and has no
+  transparency; an SVG or transparent PNG would be better
