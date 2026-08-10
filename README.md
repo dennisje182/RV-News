@@ -21,8 +21,37 @@ install what they need on first run via `uv`.
 
 ## Sharing it with your team
 
-The published page is **private until you share it**. Open it and use the share
-menu on the page. After that, every refresh updates the same link.
+The published page is **private until you share it**. Open it and use the **Share**
+control in the page header. After that, every refresh updates the same link — you
+only share it once.
+
+### Do colleagues need a Claude account?
+
+It depends which sharing mode you use, and there is one that needs no account:
+
+- **Public link** — "anyone on the internet can open, with no claude.ai sign-in
+  required". This is what you want for colleagues without accounts. On a personal
+  Pro or Max plan it is the only sharing mode, so you get it automatically.
+- **Within the organisation** — viewers must sign in to claude.ai as members of
+  the Thetford organisation, so each of them needs an account.
+
+On Team and Enterprise plans, public sharing is **off by default**. An Owner turns
+it on under **Settings > Claude Code > Capabilities > External sharing**. If the
+Share menu offers you no public option, that is the setting to ask about.
+
+### If a colleague gets a blank page
+
+Artifacts load from `*.claudeusercontent.com`. Organisations that restrict
+outbound traffic need that domain allowlisted alongside `claude.ai`. A blank page
+on the office network with a link that works elsewhere is the firewall, not the
+tool — and that domain is the specific thing to ask IT for.
+
+### The fallback that always works
+
+`build/index.html` is genuinely self-contained: one file, no internet needed,
+fonts and logos embedded. Email it or drop it in SharePoint and it opens in any
+browser for anyone. The trade-off is that each copy is a snapshot — recipients do
+not get later refreshes, which is the one thing the link does give you.
 
 ## Adding or removing a source
 
