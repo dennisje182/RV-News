@@ -317,10 +317,11 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-und
 
 .picks { display: grid; gap: var(--sp-4); }
 .pick {
+  position: relative;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--r-md);
-  padding: var(--sp-6);
+  padding: var(--sp-6) calc(var(--sp-6) + 170px) var(--sp-6) var(--sp-6);
   box-shadow: var(--shadow-xs);
 }
 .pick__meta {
@@ -328,6 +329,13 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-und
   align-items: center;
   margin-bottom: var(--sp-3);
 }
+.pick__logo {
+  position: absolute;
+  top: var(--sp-5);
+  right: var(--sp-5);
+}
+.pick__logo:empty { display: none; }
+.pick__logo .brand-mark--wide { width: 160px; height: 46px; padding: 5px; }
 .pick__title {
   font-family: var(--font-display);
   font-weight: var(--fw-semibold);
@@ -381,6 +389,7 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-und
   letter-spacing: 0.02em;
   padding-top: 3px;
 }
+.row__rail { display: grid; gap: var(--sp-2); align-content: start; }
 .row__body { min-width: 0; }
 .row__meta {
   display: flex; flex-wrap: wrap; gap: var(--sp-2) var(--sp-3);
@@ -410,6 +419,30 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-und
   font-style: italic;
   max-width: 74ch;
 }
+
+/* A compact visual anchor for the company most directly connected to a story.
+   Official logo files may be added under brand/img/company-logos/; the renderer
+   inlines them. Until then, the monogram is intentionally neutral rather than
+   inventing a company's colour or mark. */
+.brand-mark {
+  width: 30px;
+  height: 30px;
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  overflow: hidden;
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--r-sm);
+  background: var(--color-bg-tint);
+  color: var(--accent-text);
+  font-size: 10px;
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+.brand-mark--logo { padding: 4px; background: var(--neutral-0); }
+.brand-mark--wide { width: 96px; }
+.brand-mark img { display: block; width: 100%; height: 100%; object-fit: contain; }
 
 /* ---------- badges ---------------------------------------------------- */
 .badge {
@@ -495,9 +528,12 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-und
   .masthead::after { width: 260px; right: -70px; opacity: 0.07; }
   .summary { margin-top: calc(var(--sp-6) * -1); }
   .row { grid-template-columns: 1fr; gap: var(--sp-1); }
+  .row__rail { display: flex; align-items: center; gap: var(--sp-3); }
   .row__date { padding-top: 0; }
   .controls__status { margin-left: 0; width: 100%; }
-  .pick { padding: var(--sp-5); }
+  .pick { padding: calc(var(--sp-5) + 52px) var(--sp-5) var(--sp-5); }
+  .pick__logo { top: var(--sp-4); right: var(--sp-4); }
+  .pick__logo .brand-mark--wide { width: 128px; height: 40px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

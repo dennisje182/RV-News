@@ -20,6 +20,7 @@ import html
 import json
 import re
 import sys
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 
@@ -30,6 +31,13 @@ if hasattr(sys.stdout, "reconfigure"):
 
 ROOT = Path(__file__).resolve().parent.parent
 BRAND = ROOT / "brand"
+COMPANY_LOGOS = BRAND / "img" / "company-logos"
+COMPANY_LOGO_OVERRIDES = {
+    "Thetford": BRAND / "img" / "logo-dark.png",
+}
+SOURCE_LOGOS = {
+    "promobil": COMPANY_LOGOS / "promobil.svg",
+}
 DIGESTS = ROOT / "digests"
 OUT = ROOT / "build" / "index.html"
 
@@ -170,6 +178,69 @@ def badges(it: dict) -> str:
     return "".join(out)
 
 
+def brand_slug(brand: str) -> str:
+    """Return the local asset name for a brand, independent of accents."""
+    folded = unicodedata.normalize("NFKD", brand).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", "-", folded.lower()).strip("-")
+
+
+def brand_initials(brand: str) -> str:
+    """A restrained fallback until an approved company logo is added locally."""
+    parts = re.findall(r"[A-Za-z0-9]+", brand_slug(brand))
+    return "".join(part[0] for part in parts[:2]).upper() or "?"
+
+
+def logo_is_wide(asset: Path) -> bool:
+    """Detect SVG wordmarks that need a horizontal frame at this small size."""
+    if asset.suffix.lower() != ".svg":
+        return False
+    match = re.search(r'viewBox=["\']\s*[\d.-]+\s+[\d.-]+\s+([\d.-]+)\s+([\d.-]+)',
+                      asset.read_text(encoding="utf-8"))
+    return bool(match and float(match.group(1)) / float(match.group(2)) > 1.7)
+
+
+def logo_uri(asset: Path) -> str:
+    """Return an inlined company-logo URI, preserving embedded raster artwork."""
+    if asset.suffix.lower() == ".svg":
+        markup = asset.read_text(encoding="utf-8")
+        embedded = re.search(r'href="(data:image/(?:png|jpeg);base64,[^"]+)"', markup)
+        if embedded:
+            return embedded.group(1)
+    return data_uri(asset)
+
+
+def brand_mark(it: dict) -> str:
+    """Render the lead company as an embedded logo or a labelled monogram.
+
+    The company-assets directory is deliberately local. Published Artifacts block
+    remote images, and every logo needs to be traceable before it is used.
+    """
+    brands = it.get("brands") or []
+    if not brands:
+        asset = SOURCE_LOGOS.get(it["source"])
+        if not asset or not asset.exists():
+            return ""
+        publisher = SOURCE_LABEL.get(it["source"], it["source"])
+        title = e(f"Publisher: {publisher}")
+        return (f'<span class="brand-mark brand-mark--logo" '
+                f'title="{title}">'
+                f'<img src="{logo_uri(asset)}" alt=""></span>')
+    brand = brands[0]
+    slug = brand_slug(brand)
+    asset = COMPANY_LOGO_OVERRIDES.get(brand)
+    if asset is None:
+        asset = next((COMPANY_LOGOS / f"{slug}{suffix}"
+                      for suffix in (".svg", ".png", ".jpg", ".jpeg")
+                      if (COMPANY_LOGOS / f"{slug}{suffix}").exists()), None)
+    title = e(f"Lead company: {brand}")
+    if asset:
+        shape = " brand-mark--wide" if brand == "Thetford" or logo_is_wide(asset) else ""
+        return (f'<span class="brand-mark brand-mark--logo{shape}" title="{title}">'
+                f'<img src="{logo_uri(asset)}" alt=""></span>')
+    return (f'<span class="brand-mark" title="{title}" aria-hidden="true">'
+            f'{e(brand_initials(brand))}</span>')
+
+
 def render_row(it: dict) -> str:
     original = ""
     if it.get("title_original") and it["lang"] != "en":
@@ -185,7 +256,7 @@ def render_row(it: dict) -> str:
     return f"""<article class="row" data-item data-cat="{e(it['category'])}"
  data-country="{e(it['country'])}" data-competitor="{'1' if it.get('competitor') else '0'}"
  data-text="{e(search_blob(it))}">
- <div class="row__date">{e(pretty_date(it['published']))}</div>
+ <div class="row__rail"><div class="row__date">{e(pretty_date(it['published']))}</div>{brand_mark(it)}</div>
  <div class="row__body">
   <div class="row__meta"><span class="row__source">{e(source)}</span>{badges(it)}</div>
   <h4 class="row__title"><a href="{e(it['url'])}" target="_blank" rel="noopener noreferrer">{e(it['title'])}</a></h4>
@@ -211,6 +282,7 @@ def render_pick(it: dict) -> str:
     return f"""<article class="pick" data-item data-cat="{e(it['category'])}"
  data-country="{e(it['country'])}" data-competitor="{'1' if it.get('competitor') else '0'}"
  data-text="{e(search_blob(it))}">
+ <div class="pick__logo">{brand_mark(it)}</div>
  <div class="pick__meta"><span class="row__source">{e(source)}</span>
   <span class="row__date">{e(pretty_date(it['published']))}</span>{badges(it)}</div>
  <h3 class="pick__title"><a href="{e(it['url'])}" target="_blank" rel="noopener noreferrer">{e(it['title'])}</a></h3>
