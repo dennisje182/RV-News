@@ -37,38 +37,27 @@ agent, not by a script. The procedure is in
 `.claude/skills/rv-news-refresh/SKILL.md` — read it even if your runtime does not
 support skills, because it describes the editorial standard.
 
-## Publishing — read this if you are not Claude Code
+## Publishing
 
-The page is delivered as a **Claude Artifact** at a stable URL that Dennis has
-already shared with his team. Republishing requires Claude Code's `Artifact` tool.
+The canonical page is GitHub Pages:
 
-- **Claude Code, any machine:** publish `build/index.html`. From a conversation
-  that did not originally publish it, pass the existing artifact URL as the `url`
-  argument or you will mint a new link and Dennis will have to reshare.
-  The current one is in `digests/PUBLISHED.txt`.
-- **Codex or any other agent:** you can collect, curate, and build, but you
-  **cannot** republish to that URL.
+  https://dennisje182.github.io/RV-News/
 
-### The Codex workflow (this is the normal case at the office)
+The `.github/workflows/deploy-pages.yml` workflow deploys `build/` on every push
+to `main`. Colleagues need only this link, not a Claude or GitHub account.
 
-Dennis works on a Windows laptop with Codex only. Finish the edition properly,
-then hand the publish step back:
+### The normal workflow
 
 1. `uv run scripts/collect.py --days 10`
-2. Curate — write `scripts/curate_<edition>.py` per the skill file.
+2. Curate, writing `scripts/curate_<edition>.py` per the skill file.
 3. `uv run scripts/build.py`
 4. Open `build/index.html` in a browser and actually look at it.
-5. Append the new edition to `digests/PUBLISHED.txt` under "Editions published",
-   marked `BUILT, NOT YET PUBLISHED`.
-6. Commit and push. The Mac picks it up on the next pull.
-7. **Tell Dennis in plain words** that the edition is built but the shared link
-   still shows the previous one until he republishes from Claude Code.
+5. Commit and push the edition to `main`.
+6. Check that the `Deploy RV News` GitHub Actions run succeeds. The canonical
+   link updates when that deployment finishes.
 
-If he needs colleagues to see it before then, the built file is entirely
-self-contained — it can be emailed or dropped in SharePoint and it will render
-with no assets beside it. Label that copy a preview. The Artifact URL stays the
-canonical link; **do not replace it with a SharePoint link**, because two links
-that disagree is a worse outcome than one link that is a few days behind.
+`build/index.html` remains self-contained. It can be emailed or dropped in
+SharePoint as an offline snapshot, but GitHub Pages is the canonical link.
 
 ## Cross-platform rules
 
@@ -91,10 +80,11 @@ These were real bugs, fixed on 8 August 2026. Do not reintroduce them.
 
 ## Hard rules that are not about platforms
 
-- **Inline every asset.** Artifacts block all external requests. `build.py`
-  base64-inlines fonts, logo, and sunburst. No CDN, no remote font, no fetch.
-- **Emit non-ASCII markup as numeric entities.** The Artifact host owns `<head>`,
-  so our charset can land too late. `build.py` handles this; keep CSS and JS ASCII.
+- **Inline every asset.** `build.py` base64-inlines fonts, logos and sunburst.
+  This keeps the page portable as a single-file offline snapshot. No CDN, remote
+  font or fetch.
+- **Emit non-ASCII markup as numeric entities.** `build.py` handles this; keep
+  CSS and JS ASCII so the page is robust when embedded or forwarded.
 - **Brand:** sentence case, plain-spoken, **no emoji, no exclamation marks**.
   Never alter the logo or sunburst aspect ratio. Colour is not used to encode the
   four categories — see the decision log in `CLAUDE.md` for why.
@@ -113,5 +103,5 @@ scripts/curate_*.py  one per edition; the audit trail of what was chosen and why
 scripts/build.py     render + inline into a single HTML file
 brand/               Thetford tokens, Barlow fonts, logo, sunburst
 archive/ digests/    everything ever collected; queued and published editions
-build/index.html     the artifact payload
+build/index.html     the GitHub Pages payload and offline snapshot
 ```

@@ -42,17 +42,17 @@ Built 7 August 2026. First edition `2026-W32`.
   maintainer. Anything requiring environment setup, dependency management, or a
   deploy step will rot. Hence `uv` inline script metadata: the scripts install
   their own dependencies on first run and there is no venv to manage.
-- **Delivery is a published Artifact**, chosen over a hosted site because it needs
-  no account, hosting, or deploy, and colleagues get a link. Consequence: the page
-  must be a **single self-contained file**. A strict CSP blocks every external
-  request — no font CDN, no remote images, no fetch.
+- **Delivery is GitHub Pages**, so every colleague can open one stable link without
+  a Claude or GitHub account. A push to `main` deploys the committed `build/`
+  folder through GitHub Actions. The page remains a **single self-contained file**
+  so it can also be shared as an offline snapshot.
 - **Weekly cadence**, chosen by the user. See §6 on why this nearly broke the tool.
 - **The brand is not ours to invent.** Colour, type, and the sunburst come from the
   "Thetford Design System" project in Claude Design (projectId
   `019dfe69-077d-7041-adf2-13c4b2ad0b13`, readable with the `DesignSync` tool).
   `brand/tokens.css` mirrors it. Do not add brand values that are not in it.
-- **No API key anywhere.** Curation happens inside a Claude Code session, so
-  there is no per-article cost and nothing to sign up for.
+- **No API key anywhere.** Curation happens in an agent session, so there is no
+  per-article cost and nothing to sign up for.
 
 ## 3. Pipeline
 
@@ -71,7 +71,7 @@ sources.yaml ──► collect.py ──► archive/items.json     (everything e
                                  build.py               (inlines assets)
                                      │
                                      ▼
-                            build/index.html ──► Artifact (same URL every time)
+                            build/index.html ──► GitHub Pages (same URL every time)
 ```
 
 `collect.py` decides nothing about relevance beyond a date window. `curate_*.py`
@@ -98,7 +98,7 @@ brand/img/sunburst.svg    signature mark, used as the masthead watermark
 archive/items.json        every article ever collected
 digests/pending.json      accumulating queue awaiting curation
 digests/2026-W32.json     published edition
-build/index.html          the artifact payload (~360 KB self-contained)
+build/index.html          the GitHub Pages payload (~360 KB self-contained)
 ```
 
 Country flag SVGs were downloaded early and **deliberately removed**: text country
@@ -110,23 +110,19 @@ Spain's flag alone was 230 KB. Do not reintroduce them without a reason.
 Breaking any of these produces a page that looks fine locally and fails once
 published, or quietly violates the brand.
 
-- **Inline everything.** No external stylesheet, font URL, script, or image.
-  `build.py` base64-inlines fonts, logo, and sunburst. This is not an
-  optimisation, it is the only thing that works under the Artifact CSP.
-- **Emit non-ASCII as numeric entities.** The Artifact host owns `<head>`, so our
-  charset declaration can land too late — the first build rendered
-  "RV News&#x2014;" as mojibake. `build.py` escapes all markup above U+007F and
-  folds typographic characters in CSS/JS to ASCII instead, because entities are
-  not interpreted inside `<style>` or `<script>`. This content is full of umlauts
-  and accents, so it matters.
-- **Republish to the same file path** so the Artifact URL stays stable. Dennis has
-  shared that link with his team; a new URL means asking everyone to re-bookmark.
+- **Inline everything.** No external stylesheet, font URL, script or image.
+  `build.py` base64-inlines fonts, logo and sunburst, keeping the page portable as
+  a single-file offline snapshot.
+- **Emit non-ASCII as numeric entities.** This protects the page when it is
+  embedded or forwarded through systems with poor charset handling. `build.py`
+  escapes markup above U+007F and folds CSS and JS to ASCII.
+- **Deploy the committed `build/` folder** by pushing to `main`. GitHub Pages
+  keeps the canonical URL stable, so colleagues never need a new link.
 - **Never alter the logo or sunburst aspect ratio** (brand rule). The masthead is a
   column flex container, so the logo needs `align-self: flex-start`; without it
   `align-items: stretch` pulled it to 1072px wide and squashed it.
 - **Brand tone:** sentence case, plain-spoken, **no emoji, no exclamation marks**.
-  Applies to every word on the page. (The 🚐 artifact favicon is a tab icon, not
-  page copy.)
+  Applies to every word on the page.
 - **Do not colour-code the four categories.** See §6.
 - **Keep the coverage note honest.** It states collected / selected / merged /
   dropped counts and separates sourced fact from editorial judgement. Update the
@@ -273,11 +269,9 @@ collected with no failures, non-ASCII source names printed correctly, the archiv
 transferred through Git intact (151 of 159 items recognised as already seen), and
 `build.py` produced a file byte-identical to the macOS build.
 
-**The Artifact tool is Claude Code only.** Codex and other agents can collect,
-curate, and build, but cannot republish to the shared URL in
-`digests/PUBLISHED.txt`. The built page is fully self-contained, so it can be
-handed over as a file — but say plainly that the shared link is stale until
-someone republishes from Claude Code.
+**GitHub Pages is the publication route.** After building, commit and push to
+`main`; the `Deploy RV News` workflow publishes `build/` to the stable link.
+Check that action has succeeded before treating the live page as updated.
 
 **A corporate laptop may break collection** in ways that are not this project's
 fault: a TLS-inspecting proxy makes `requests` reject certificates, and some of
@@ -287,8 +281,8 @@ the network, not the collector.
 
 ## 8. Verifying a change
 
-`build.py` prints size and per-category counts and warns if the page approaches
-the 16 MB Artifact ceiling.
+`build.py` prints size and per-category counts. The page is intentionally kept
+small enough to stay convenient to share as a self-contained offline snapshot.
 
 To check behaviour, serve `build/` and drive it with JavaScript rather than
 screenshots:

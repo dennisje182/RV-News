@@ -1,6 +1,6 @@
 /* RV News — client-side filtering.
    Everything is already in the page; this only shows and hides. No network,
-   which is just as well because published Artifacts block outbound requests.
+   which also keeps the generated page usable as an offline snapshot.
 
    Filter state is mirrored into the URL hash so a filtered view can be shared
    as a link — "look at the competitor items" is a message someone will want to

@@ -6,10 +6,9 @@
 """
 Build the RV News dashboard: one self-contained HTML file.
 
-Published Artifacts block every outbound request — no font CDN, no remote
-images — so fonts, the logo and the sunburst are all base64-inlined here.
-That is the whole reason this script exists rather than just opening the CSS
-in a browser.
+GitHub Pages deploys the generated file, while the same file is also used as an
+offline snapshot. Fonts, logos and the sunburst are base64-inlined so it remains
+portable with no assets beside it.
 
 Run:  uv run scripts/build.py          newest edition in digests/
       uv run scripts/build.py 2026-W32 a specific edition
@@ -76,11 +75,9 @@ SOURCE_LABEL = {
 MIME = {".woff2": "font/woff2", ".png": "image/png", ".svg": "image/svg+xml",
         ".jpg": "image/jpeg", ".jpeg": "image/jpeg"}
 
-# The Artifact host wraps this file in its own <head>, so a charset declaration
-# of ours may land too late to take effect. This content is full of umlauts and
-# accents, so instead of trusting the charset, every non-ASCII character in the
-# markup is emitted as a numeric character reference — correct under any
-# encoding. Entities are not interpreted inside <style> or <script>, so CSS and
+# Some embedding and forwarding tools handle charset declarations poorly. Every
+# non-ASCII character in markup is therefore emitted as a numeric character
+# reference. Entities are not interpreted inside <style> or <script>, so CSS and
 # JS get typographic characters folded to ASCII instead.
 TYPOGRAPHIC = {
     "—": "--", "–": "-", "’": "'", "‘": "'",
@@ -212,8 +209,8 @@ def logo_uri(asset: Path) -> str:
 def brand_mark(it: dict) -> str:
     """Render the lead company as an embedded logo or a labelled monogram.
 
-    The company-assets directory is deliberately local. Published Artifacts block
-    remote images, and every logo needs to be traceable before it is used.
+    The company-assets directory is deliberately local. Every logo needs to be
+    traceable before it is used, and local assets keep the offline snapshot whole.
     """
     brands = it.get("brands") or []
     if not brands:
@@ -485,7 +482,7 @@ __JS__
     for key, label, _ in CATEGORIES:
         print(f"    {label:<26} {counts[key]}")
     if kb > 16 * 1024:
-        print("  WARNING over the 16 MB Artifact limit")
+        print("  WARNING page exceeds 16 MB and is cumbersome to share as one file")
     return 0
 
 

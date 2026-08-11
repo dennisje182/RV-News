@@ -5,8 +5,8 @@
    design system changes, re-pull it and update this file.
 
    Fonts reference brand/fonts/*.woff2. scripts/build.py rewrites each
-   url(...) into an inlined base64 data URI, because published Artifacts
-   block every external request.
+   url(...) into an inlined base64 data URI, so the page remains a portable
+   single-file offline snapshot.
    ============================================================ */
 
 /* ---------- Barlow (latin + latin-ext, 5 cuts) ---------- */
