@@ -12,3 +12,9 @@ __pycache__/
 .idea/
 .vscode/
 *.swp
+
+# Weekly SharePoint automation output and local connection settings
+automation/staging/
+automation/config.json
+automation/staged_ids.json
+automation/last_run.json

@@ -1,0 +1,6 @@
+{
+  "staging_drop": "C:\\Path\\To\\Your\\Synced\\RV News Automation\\Incoming",
+  "source_days": 10,
+  "max_input_articles": 12,
+  "review_cards": 12
+}
