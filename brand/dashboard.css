@@ -317,25 +317,31 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-und
 
 .picks { display: grid; gap: var(--sp-4); }
 .pick {
-  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 224px;
+  gap: var(--sp-5);
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--r-md);
-  padding: var(--sp-6) calc(var(--sp-6) + 170px) var(--sp-6) var(--sp-6);
+  padding: var(--sp-6);
   box-shadow: var(--shadow-xs);
 }
+.pick--no-image { display: block; }
+.pick__content { min-width: 0; }
 .pick__meta {
   display: flex; flex-wrap: wrap; gap: var(--sp-2) var(--sp-3);
   align-items: center;
   margin-bottom: var(--sp-3);
 }
-.pick__logo {
-  position: absolute;
-  top: var(--sp-5);
-  right: var(--sp-5);
+.pick__image {
+  display: block;
+  align-self: start;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: var(--r-sm);
+  background: var(--color-surface-raised);
 }
-.pick__logo:empty { display: none; }
-.pick__logo .brand-mark--wide { width: 160px; height: 46px; padding: 5px; }
+.pick__image img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .pick__title {
   font-family: var(--font-display);
   font-weight: var(--fw-semibold);
@@ -531,9 +537,7 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-und
   .row__rail { display: flex; align-items: center; gap: var(--sp-3); }
   .row__date { padding-top: 0; }
   .controls__status { margin-left: 0; width: 100%; }
-  .pick { padding: calc(var(--sp-5) + 52px) var(--sp-5) var(--sp-5); }
-  .pick__logo { top: var(--sp-4); right: var(--sp-4); }
-  .pick__logo .brand-mark--wide { width: 128px; height: 40px; }
+  .pick { grid-template-columns: minmax(0, 1fr) 120px; gap: var(--sp-4); padding: var(--sp-5); }
 }
 
 @media (prefers-reduced-motion: reduce) {

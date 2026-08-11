@@ -12,7 +12,8 @@ Ask your coding agent, in this folder:
 
 > refresh RV News
 
-That follows the `rv-news-refresh` procedure: collect, curate and build. It takes
+That follows the `rv-news-refresh` procedure: collect, curate, cache the selected
+editor-pick images and build. It takes
 a few minutes, most of which is the reading. Commit and push the completed
 edition to update the shared page.
 
@@ -74,6 +75,7 @@ certificates, and some publishers may be blocked outright.
 sources.yaml            the source list, the one file worth editing by hand
 scripts/collect.py      fetches the feeds and archives everything it finds
 scripts/curate_*.py     one per edition: what was selected, and why
+scripts/fetch_pick_images.py  saves lead images for editor's picks
 scripts/build.py        renders the branded, self-contained page
 scripts/dashboard.js    the search and filter behaviour
 brand/                  Thetford tokens, Barlow fonts, logo and sunburst

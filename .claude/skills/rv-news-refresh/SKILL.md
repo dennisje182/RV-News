@@ -64,7 +64,21 @@ Drop without guilt: travel features, campsite guides, prize draws and
 competitions, consumer listicles, obituaries, road accidents, and US or
 Australian trade news with no European read-through.
 
-## 3. Build and deploy
+## 3. Cache editor-pick images
+
+After the curation script has created the edition, fetch a lead image for each
+editor's pick:
+
+```
+uv run scripts/fetch_pick_images.py <edition>
+```
+
+It reads each chosen article's `og:image` or `twitter:image`, stores a compressed
+local JPEG under `assets/picks/`, and records that local path in the edition. It
+never hotlinks an image, so the built page remains self-contained. If a publisher
+does not expose an image, the affected pick stays full-width without a placeholder.
+
+## 4. Build and deploy
 
 ```
 uv run scripts/build.py

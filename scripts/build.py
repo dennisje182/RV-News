@@ -31,6 +31,7 @@ if hasattr(sys.stdout, "reconfigure"):
 ROOT = Path(__file__).resolve().parent.parent
 BRAND = ROOT / "brand"
 COMPANY_LOGOS = BRAND / "img" / "company-logos"
+PICK_IMAGES = ROOT / "assets" / "picks"
 COMPANY_LOGO_OVERRIDES = {
     "Thetford": BRAND / "img" / "logo-dark.png",
 }
@@ -73,7 +74,7 @@ SOURCE_LABEL = {
 }
 
 MIME = {".woff2": "font/woff2", ".png": "image/png", ".svg": "image/svg+xml",
-        ".jpg": "image/jpeg", ".jpeg": "image/jpeg"}
+        ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webp": "image/webp"}
 
 # Some embedding and forwarding tools handle charset declarations poorly. Every
 # non-ASCII character in markup is therefore emitted as a numeric character
@@ -238,6 +239,20 @@ def brand_mark(it: dict) -> str:
             f'{e(brand_initials(brand))}</span>')
 
 
+def pick_image(it: dict) -> str:
+    """Render a locally cached article image for an editor's pick, if present."""
+    image = it.get("image")
+    if not image:
+        return ""
+    asset = (ROOT / image).resolve()
+    if PICK_IMAGES.resolve() not in asset.parents or not asset.is_file():
+        print(f"  note: pick image missing or outside assets/picks for {it['id']}")
+        return ""
+    return (f'<a class="pick__image" href="{e(it["url"])}" target="_blank" '
+            f'rel="noopener noreferrer"><img src="{data_uri(asset)}" '
+            f'alt="{e(it["title"])}"></a>')
+
+
 def render_row(it: dict) -> str:
     original = ""
     if it.get("title_original") and it["lang"] != "en":
@@ -276,15 +291,19 @@ def render_pick(it: dict) -> str:
         why = (f'<div class="pick__why"><p class="eyebrow">Why it matters for Thetford</p>'
                f'<p>{e(it["why"])}</p></div>')
     source = SOURCE_LABEL.get(it["source"], it["source"])
-    return f"""<article class="pick" data-item data-cat="{e(it['category'])}"
+    image = pick_image(it)
+    no_image = " pick--no-image" if not image else ""
+    return f"""<article class="pick{no_image}" data-item data-cat="{e(it['category'])}"
  data-country="{e(it['country'])}" data-competitor="{'1' if it.get('competitor') else '0'}"
  data-text="{e(search_blob(it))}">
- <div class="pick__logo">{brand_mark(it)}</div>
- <div class="pick__meta"><span class="row__source">{e(source)}</span>
-  <span class="row__date">{e(pretty_date(it['published']))}</span>{badges(it)}</div>
- <h3 class="pick__title"><a href="{e(it['url'])}" target="_blank" rel="noopener noreferrer">{e(it['title'])}</a></h3>
- <p class="pick__summary">{e(it['summary'])}</p>
- {original}{also}{why}
+ <div class="pick__content">
+  <div class="pick__meta"><span class="row__source">{e(source)}</span>
+   <span class="row__date">{e(pretty_date(it['published']))}</span>{badges(it)}</div>
+  <h3 class="pick__title"><a href="{e(it['url'])}" target="_blank" rel="noopener noreferrer">{e(it['title'])}</a></h3>
+  <p class="pick__summary">{e(it['summary'])}</p>
+  {original}{also}{why}
+ </div>
+ {image}
 </article>"""
 
 
