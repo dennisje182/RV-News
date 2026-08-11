@@ -188,15 +188,6 @@ def brand_initials(brand: str) -> str:
     return "".join(part[0] for part in parts[:2]).upper() or "?"
 
 
-def logo_is_wide(asset: Path) -> bool:
-    """Detect SVG wordmarks that need a horizontal frame at this small size."""
-    if asset.suffix.lower() != ".svg":
-        return False
-    match = re.search(r'viewBox=["\']\s*[\d.-]+\s+[\d.-]+\s+([\d.-]+)\s+([\d.-]+)',
-                      asset.read_text(encoding="utf-8"))
-    return bool(match and float(match.group(1)) / float(match.group(2)) > 1.7)
-
-
 def logo_needs_dark_frame(asset: Path) -> bool:
     """Identify light SVG wordmarks that disappear on the standard white tile."""
     if asset.suffix.lower() != ".svg":
@@ -240,9 +231,8 @@ def brand_mark(it: dict) -> str:
                       if (COMPANY_LOGOS / f"{slug}{suffix}").exists()), None)
     title = e(f"Lead company: {brand}")
     if asset:
-        shape = " brand-mark--wide" if brand == "Thetford" or logo_is_wide(asset) else ""
         frame = " brand-mark--on-dark" if logo_needs_dark_frame(asset) else ""
-        return (f'<span class="brand-mark brand-mark--logo{shape}{frame}" title="{title}">'
+        return (f'<span class="brand-mark brand-mark--logo{frame}" title="{title}">'
                 f'<img src="{logo_uri(asset)}" alt=""></span>')
     return (f'<span class="brand-mark" title="{title}" aria-hidden="true">'
             f'{e(brand_initials(brand))}</span>')
