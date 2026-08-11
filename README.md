@@ -75,6 +75,7 @@ certificates, and some publishers may be blocked outright.
 sources.yaml            the source list, the one file worth editing by hand
 scripts/collect.py      fetches the feeds and archives everything it finds
 scripts/curate_*.py     one per edition: what was selected, and why
+scripts/fetch_brand_logos.py  caches lead-brand logos from official sites
 scripts/fetch_pick_images.py  saves lead images for editor's picks
 scripts/build.py        renders the branded, self-contained page
 scripts/dashboard.js    the search and filter behaviour

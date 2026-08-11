@@ -448,6 +448,7 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-und
 }
 .brand-mark--logo { padding: 4px; background: var(--neutral-0); }
 .brand-mark--wide { width: 96px; }
+.brand-mark--on-dark { background: var(--color-surface-dark); }
 .brand-mark img { display: block; width: 100%; height: 100%; object-fit: contain; }
 
 /* ---------- badges ---------------------------------------------------- */

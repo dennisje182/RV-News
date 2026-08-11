@@ -197,6 +197,14 @@ def logo_is_wide(asset: Path) -> bool:
     return bool(match and float(match.group(1)) / float(match.group(2)) > 1.7)
 
 
+def logo_needs_dark_frame(asset: Path) -> bool:
+    """Identify light SVG wordmarks that disappear on the standard white tile."""
+    if asset.suffix.lower() != ".svg":
+        return False
+    markup = asset.read_text(encoding="utf-8")
+    return bool(re.search(r'fill=["\'](?:#(?:fff|ffffff)|white)["\']', markup, re.I))
+
+
 def logo_uri(asset: Path) -> str:
     """Return an inlined company-logo URI, preserving embedded raster artwork."""
     if asset.suffix.lower() == ".svg":
@@ -233,7 +241,8 @@ def brand_mark(it: dict) -> str:
     title = e(f"Lead company: {brand}")
     if asset:
         shape = " brand-mark--wide" if brand == "Thetford" or logo_is_wide(asset) else ""
-        return (f'<span class="brand-mark brand-mark--logo{shape}" title="{title}">'
+        frame = " brand-mark--on-dark" if logo_needs_dark_frame(asset) else ""
+        return (f'<span class="brand-mark brand-mark--logo{shape}{frame}" title="{title}">'
                 f'<img src="{logo_uri(asset)}" alt=""></span>')
     return (f'<span class="brand-mark" title="{title}" aria-hidden="true">'
             f'{e(brand_initials(brand))}</span>')

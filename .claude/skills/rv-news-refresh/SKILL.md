@@ -71,7 +71,18 @@ Drop without guilt: travel features, campsite guides, prize draws and
 competitions, consumer listicles, obituaries, road accidents, and US or
 Australian trade news with no European read-through.
 
-## 3. Cache editor-pick images
+## 3. Cache brand logos
+
+```
+uv run scripts/fetch_brand_logos.py <edition>
+```
+
+This reads official websites declared in `brand_sources.yaml`, caches a lead
+brand's logo locally, and reports brands that need a verified website added. It
+must never delay or exclude an article: the labelled monogram remains when a
+brand has no usable official asset.
+
+## 4. Cache editor-pick images
 
 After the curation script has created the edition, fetch a lead image for each
 editor's pick:
@@ -85,7 +96,7 @@ local JPEG under `assets/picks/`, and records that local path in the edition. It
 never hotlinks an image, so the built page remains self-contained. If a publisher
 does not expose an image, the affected pick stays full-width without a placeholder.
 
-## 4. Build and deploy
+## 5. Build and deploy
 
 ```
 uv run scripts/build.py

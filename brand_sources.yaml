@@ -1,0 +1,60 @@
+# Official websites used solely to retrieve a brand's own logo for RV News.
+# Add a source only when its ownership is clear. Unknown or discontinued brands
+# remain absent and keep the labelled monogram until a verified site is known.
+brands:
+  ACSI: https://www.acsi.eu/
+  Adria: https://www.adria-mobil.com/
+  Ahorn: https://www.ahorn-camp.de/
+  Airxcel: https://www.airxcel.com/
+  Bruder: https://bruderx.com/
+  Cadac: https://www.cadacinternational.com/
+  Camec: https://www.camec.com.au/
+  Carado: https://www.carado.com/
+  Carthago: https://www.carthago.com/
+  Corigon: https://www.corigon.com/
+  Dethleffs: https://www.dethleffs.de/
+  Dexko: https://www.dexko.com/
+  Dometic: https://www.dometic.com/
+  E-Trailer: https://e-trailer.nl/
+  Etrusco: https://www.etrusco.com/
+  Fiamma: https://www.fiamma.com/
+  Fiat: https://www.fiatprofessional.com/
+  Flowcamper: https://www.flowcamper.de/
+  Ford: https://www.ford.com/
+  Forster: https://www.forster-reisemobile.de/
+  Frankia: https://www.frankia.com/
+  GOK: https://www.gok-online.de/
+  Hobby: https://www.hobby-caravan.de/
+  Hymer: https://www.hymer.com/
+  Joa: https://www.joa-camp.com/
+  Kip: https://www.kipcaravans.nl/
+  Knaus: https://www.knaus.com/
+  Knaus Tabbert: https://www.knaustabbert.de/
+  Laika: https://www.laika.it/
+  Lippert: https://www.lci1.com/
+  LMC: https://www.lmc-caravan.de/
+  LotusGrill: https://www.lotusgrill.com/
+  Malibu: https://www.malibu-carthago.com/
+  Maxxis: https://www.maxxis.com/
+  McLouis: https://www.mclouis.com/
+  Mercedes-Benz: https://www.mercedes-benz.com/
+  Mestic: https://www.mestic.nl/
+  Morelo: https://www.morelo-reisemobile.de/
+  Niesmann: https://www.niesmann-bischoff.com/
+  Niesmann+Bischoff: https://www.niesmann-bischoff.com/
+  Nissan: https://www.nissan-global.com/
+  Offtrack: https://www.offtrack.de/
+  Pilote: https://www.pilote-camping-cars.com/
+  Pössl: https://www.poessl-mobile.de/
+  Rimor: https://www.rimor.it/
+  Scanstrut: https://www.scanstrut.com/
+  Stellantis: https://www.stellantis.com/
+  Sun Living: https://www.sunliving.com/
+  Sunlight: https://www.sunlight.de/
+  Tabbert: https://www.tabbert.com/
+  Thetford: https://www.thetford-europe.com/
+  Trigano: https://www.trigano.com/
+  Victron: https://www.victronenergy.com/
+  Webasto: https://www.webasto.com/
+  Weinsberg: https://www.weinsberg.com/
+  Xiaomi: https://www.mi.com/
