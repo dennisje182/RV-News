@@ -10,6 +10,8 @@ not fetched by the reader's browser.
 | `burstner.svg` | Bürstner | [Bürstner public website](https://www.buerstner.com/_default_upload_bucket/buerstner-relaunch-logo_1.svg) | Brand asset supplied by the company |
 | `promobil.svg` | promobil | [promobil public website](https://www.promobil.de/img/pro/logo-banner.svg) | Brand asset supplied by the publisher |
 | `truma.svg` | Truma | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Truma_firmenlogo.jpg) | Compact embedded copy of Truma's CC BY-SA 3.0 logo |
+| `thule.svg` | Thule | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thule_Brand_Logo_03.2023.svg) | Current company mark, public-domain text logo |
+| `westfalia.svg` | Westfalia | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Westfalia_Van_Conversion_logo.svg) | Vector based on the company's public RV mark, public-domain text logo |
 
 ## Only real logo files belong here
 
@@ -28,6 +30,10 @@ what the code comments already say should happen.
 
 ### Wanted, if a genuine file can be sourced
 - Knaus Tabbert — currently shows a "KT" monogram
+- Dometic — currently shows a "D" monogram
+- Fiamma — currently shows an "F" monogram
+- Victron Energy — currently shows a "V" monogram
+- Webasto — currently shows a "W" monogram
 - promobil — the current `logo-banner.svg` is a small square badge that is
   illegible at 30px; a horizontal wordmark would read properly
 - Truma — the current file is a JPEG wrapped in SVG, so it is lossy and has no
