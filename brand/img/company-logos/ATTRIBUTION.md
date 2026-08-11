@@ -12,6 +12,7 @@ not fetched by the reader's browser.
 | `truma.svg` | Truma | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Truma_firmenlogo.jpg) | Compact embedded copy of Truma's CC BY-SA 3.0 logo |
 | `thule.svg` | Thule | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thule_Brand_Logo_03.2023.svg) | Current company mark, public-domain text logo |
 | `westfalia.svg` | Westfalia | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Westfalia_Van_Conversion_logo.svg) | Vector based on the company's public RV mark, public-domain text logo |
+| `knaus-tabbert.png` | Knaus Tabbert | Supplied by Dennis, 11 August 2026 | User-supplied raster copy of the company's wordmark; trademark rights not independently verified |
 
 ## Only real logo files belong here
 
@@ -20,16 +21,16 @@ not approximate a logotype by setting the company name in a substitute typeface 
 that misrepresents a real company's trademark, and `<text>` in an SVG renders
 differently depending on the fonts the reader happens to have.
 
-`knaus-tabbert.svg` was removed on 9 August 2026 for exactly this. It set "KNAUS
-TABBERT" in Arial with a hand-drawn swoosh, and carried a corrupted glyph
-fragment that rendered as stray marks under the wordmark.
+The earlier non-genuine `knaus-tabbert.svg` was removed on 9 August 2026. It set
+the name in Arial with a hand-drawn swoosh, and carried a corrupted glyph
+fragment that rendered as stray marks under the wordmark. It is replaced by the
+genuine user-supplied `knaus-tabbert.png` recorded above.
 
 When no genuine asset is available, add nothing. `brand_initials()` in
 `build.py` falls back to a neutral monogram, which is the honest outcome and is
 what the code comments already say should happen.
 
 ### Wanted, if a genuine file can be sourced
-- Knaus Tabbert — currently shows a "KT" monogram
 - Dometic — currently shows a "D" monogram
 - Fiamma — currently shows an "F" monogram
 - Victron Energy — currently shows a "V" monogram
