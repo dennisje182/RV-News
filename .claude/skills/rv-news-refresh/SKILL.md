@@ -60,6 +60,13 @@ cooking, water and climate, and in what would change a decision. "Truma is
 claiming the in-cabin control layer" is useful. "This is interesting for the
 industry" is not.
 
+If a chosen pick came from Google News, open its Google News link in a browser
+and wait for the original publisher page. Add its final direct URL as
+`"article_url": "https://..."` in the curated record. Keep the collected Google
+News `url` and source name unchanged for provenance. The image step uses
+`article_url`, because Google News does not reliably expose the original page to
+an HTTP client.
+
 Drop without guilt: travel features, campsite guides, prize draws and
 competitions, consumer listicles, obituaries, road accidents, and US or
 Australian trade news with no European read-through.

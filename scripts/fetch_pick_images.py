@@ -17,6 +17,7 @@ import json
 import sys
 from pathlib import Path
 from urllib.parse import urljoin
+from urllib.parse import urlparse
 
 import requests
 import truststore
@@ -89,7 +90,10 @@ def main() -> int:
         dest = IMAGE_DIR / f"{item['id']}.jpg"
         existing_image = item.get("image")
         try:
-            image_url = meta_image(item["url"], session)
+            article_url = item.get("article_url", item["url"])
+            if urlparse(article_url).netloc.lower() == "news.google.com":
+                raise ValueError("Google News pick needs article_url resolved during curation")
+            image_url = meta_image(article_url, session)
             if not image_url:
                 raise ValueError("no og:image or twitter:image found")
             download_jpeg(image_url, dest, session)
