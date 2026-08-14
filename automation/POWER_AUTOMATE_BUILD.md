@@ -36,7 +36,10 @@ marked for editorial review. For each manifest candidate, create an item in
 | Edition | `edition` |
 | Current edition | `No` |
 
-Before creating an item, query `Article ID`; skip a record already in the list.
+`Article ID` is configured in SharePoint to enforce unique values. This blocks a
+second queue record for the same source article, even if a manifest is uploaded
+again. A later flow refinement can turn that blocked duplicate into a clean
+"skipped" branch in the run history.
 Use the image file from the same manifest folder to populate the list's native
 `Article image` field. If that upload fails, set Status to `Review - image issue`
 and exclude it from publication.
